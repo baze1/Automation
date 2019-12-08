@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Footer Follow us Desktop</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>1f5a9705-ab2b-4e78-ac6b-31811d182280</testCaseGuid>
+   <variable>
+      <defaultValue>'https://www.facebook.com/groups/525066904174158/'</defaultValue>
+      <description></description>
+      <id>eb7ebe99-e3db-4cc5-8a43-279bea401d1b</id>
+      <masked>false</masked>
+      <name>FB</name>
+   </variable>
+   <variable>
+      <defaultValue>'https://twitter.com/seleniumfrmwrk'</defaultValue>
+      <description></description>
+      <id>c757002a-6717-4fa6-b4d0-8de8d932daeb</id>
+      <masked>false</masked>
+      <name>TW</name>
+   </variable>
+   <variable>
+      <defaultValue>'https://www.youtube.com/channel/UCHl59sI3SRjQ-qPcTrgt0tA'</defaultValue>
+      <description></description>
+      <id>b8b6c8fd-3bad-4675-86d1-4af9d169546a</id>
+      <masked>false</masked>
+      <name>YT</name>
+   </variable>
+   <variable>
+      <defaultValue>'https://accounts.google.com/signin/v2/identifier?passive=1209600&amp;osid=1&amp;continue=https%3A%2F%2Fplus.google.com%2F111979135243110831526%2Fposts&amp;followup=https%3A%2F%2Fplus.google.com%2F111979135243110831526%2Fposts&amp;flowName=GlifWebSignIn&amp;flowEntry=ServiceLogin'</defaultValue>
+      <description></description>
+      <id>bc721027-076a-4f8c-97ad-a64d71af1501</id>
+      <masked>false</masked>
+      <name>GooglePlus</name>
+   </variable>
+</TestCaseEntity>
