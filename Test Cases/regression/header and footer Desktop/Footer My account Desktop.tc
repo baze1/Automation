@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Footer My account Desktop</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>257f314f-1020-46a0-9e91-0429a51ccac4</testCaseGuid>
+   <variable>
+      <defaultValue>'http://automationpractice.com/index.php?controller=authentication&amp;back=my-account'</defaultValue>
+      <description></description>
+      <id>09f5ed75-b9b3-4aeb-9419-f3e5470688a5</id>
+      <masked>false</masked>
+      <name>myAcc</name>
+   </variable>
+   <variable>
+      <defaultValue>'http://automationpractice.com/index.php?controller=authentication&amp;back=history'</defaultValue>
+      <description></description>
+      <id>359b0056-f1ad-4dbb-942b-a86bf9cd7d14</id>
+      <masked>false</masked>
+      <name>orders</name>
+   </variable>
+   <variable>
+      <defaultValue>'http://automationpractice.com/index.php?controller=authentication&amp;back=order-slip'</defaultValue>
+      <description></description>
+      <id>80bb8324-c984-46bb-ace6-31d0a8f8a4dd</id>
+      <masked>false</masked>
+      <name>CredCa</name>
+   </variable>
+   <variable>
+      <defaultValue>'http://automationpractice.com/index.php?controller=authentication&amp;back=addresses'</defaultValue>
+      <description></description>
+      <id>9b0c456c-3991-48b9-8693-2e7f2693d2ae</id>
+      <masked>false</masked>
+      <name>address</name>
+   </variable>
+   <variable>
+      <defaultValue>'http://automationpractice.com/index.php?controller=authentication&amp;back=identity'</defaultValue>
+      <description></description>
+      <id>1921b353-78e5-4a04-aea6-6d067c502032</id>
+      <masked>false</masked>
+      <name>id</name>
+   </variable>
+</TestCaseEntity>
