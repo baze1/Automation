@@ -33,6 +33,7 @@ WebUI.verifyMatch(CurrentUrl3,'http://automationpractice.com/index.php?id_catego
 WebUI.mouseOver(findTestObject('navigation menu/a_Women'))
 WebUI.delay(3)
 WebUI.click(findTestObject('navigation menu/a_Blouses'))
+WebUI.delay(3)
 assert WebUI.getWindowTitle() == 'Blouses - My Store'
 CurrentUrl4= WebUI.getUrl()
 WebUI.verifyMatch(CurrentUrl4,'http://automationpractice.com/index.php?id_category=7&controller=category', false)

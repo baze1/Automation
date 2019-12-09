@@ -1,0 +1,227 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+All,Chrome 78.0.3904.108,,2019-12-09 02:02:39,2019-12-09 02:05:43,3m - 4.738s,PASSED
+,,,,,,
+Test Cases/regression/header and footer Desktop/Footer Categories Desktop,Chrome 78.0.3904.108,,2019-12-09 02:02:39,2019-12-09 02:02:49,10.602s,PASSED
+"openBrowser("""")",Chrome 78.0.3904.108,,2019-12-09 02:02:39,2019-12-09 02:02:42,3.112s,PASSED
+"navigateToUrl(""http://automationpractice.com/index.php"")",Chrome 78.0.3904.108,,2019-12-09 02:02:42,2019-12-09 02:02:46,4.030s,PASSED
+"verifyElementPresent(findTestObject(""Object Repository/Footer elements/h4_Categories""), 2)",Chrome 78.0.3904.108,,2019-12-09 02:02:46,2019-12-09 02:02:46,0.072s,PASSED
+"click(findTestObject(""Footer elements/a_Women""))",Chrome 78.0.3904.108,,2019-12-09 02:02:46,2019-12-09 02:02:48,1.916s,PASSED
+CurrentUrL = getUrl(),Chrome 78.0.3904.108,,2019-12-09 02:02:48,2019-12-09 02:02:48,0.029s,PASSED
+"verifyMatch(CurrentUrL, ""http://automationpractice.com/index.php?id_category=3&controller=category"", false)",Chrome 78.0.3904.108,,2019-12-09 02:02:48,2019-12-09 02:02:48,0.021s,PASSED
+"takeScreenshot(""TestScreenShots/WomenPage.png"")",Chrome 78.0.3904.108,,2019-12-09 02:02:48,2019-12-09 02:02:49,0.868s,PASSED
+closeBrowser(),Chrome 78.0.3904.108,,2019-12-09 02:02:49,2019-12-09 02:02:49,0.173s,PASSED
+,,,,,,
+Test Cases/regression/header and footer Desktop/Footer Follow us Desktop,Chrome 78.0.3904.108,,2019-12-09 02:02:49,2019-12-09 02:03:04,14.900s,PASSED
+"openBrowser("""")",Chrome 78.0.3904.108,,2019-12-09 02:02:50,2019-12-09 02:02:51,1.596s,PASSED
+"navigateToUrl(""http://automationpractice.com/index.php"")",Chrome 78.0.3904.108,,2019-12-09 02:02:51,2019-12-09 02:02:56,4.265s,PASSED
+"scrollToPosition(9999999, 9999999)",Chrome 78.0.3904.108,,2019-12-09 02:02:56,2019-12-09 02:02:56,0.038s,PASSED
+"verifyElementPresent(findTestObject(""Footer elements/h4_Follow us""), 1)",Chrome 78.0.3904.108,,2019-12-09 02:02:56,2019-12-09 02:02:56,0.034s,PASSED
+"verifyElementPresent(findTestObject(""Footer elements/a_Facebook""), 1)",Chrome 78.0.3904.108,,2019-12-09 02:02:56,2019-12-09 02:02:56,0.026s,PASSED
+"verifyElementPresent(findTestObject(""Footer elements/a_Twitter""), 1)",Chrome 78.0.3904.108,,2019-12-09 02:02:56,2019-12-09 02:02:56,0.024s,PASSED
+"verifyElementPresent(findTestObject(""Footer elements/a_Youtube""), 1)",Chrome 78.0.3904.108,,2019-12-09 02:02:56,2019-12-09 02:02:56,0.022s,PASSED
+"verifyElementPresent(findTestObject(""Footer elements/a_Google Plus""), 1)",Chrome 78.0.3904.108,,2019-12-09 02:02:56,2019-12-09 02:02:56,0.028s,PASSED
+"verifyLinksAccessible([""https://www.facebook.com/groups/525066904174158/"", ""https://twitter.com/seleniumfrmwrk"", ""https://www.youtube.com/channel/UCHl59sI3SRjQ-qPcTrgt0tA"", ""https://accounts.google.com/signin/v2/identifier?passive=1209600&osid=1&continue=https%3A%2F%2Fplus.google.com%2F111979135243110831526%2Fposts&followup=https%3A%2F%2Fplus.google.com%2F111979135243110831526%2Fposts&flowName=GlifWebSignIn&flowEntry=ServiceLogin""])",Chrome 78.0.3904.108,,2019-12-09 02:02:56,2019-12-09 02:03:03,7.652s,PASSED
+"takeScreenshot(""TestScreenShots/Footer.png"")",Chrome 78.0.3904.108,,2019-12-09 02:03:03,2019-12-09 02:03:04,0.661s,PASSED
+closeBrowser(),Chrome 78.0.3904.108,,2019-12-09 02:03:04,2019-12-09 02:03:04,0.283s,PASSED
+,,,,,,
+Test Cases/regression/header and footer Desktop/Footer Information Desktop,Chrome 78.0.3904.108,,2019-12-09 02:03:04,2019-12-09 02:03:22,17.171s,PASSED
+"openBrowser("""")",Chrome 78.0.3904.108,,2019-12-09 02:03:05,2019-12-09 02:03:07,1.837s,PASSED
+"navigateToUrl(""http://automationpractice.com/index.php"")",Chrome 78.0.3904.108,,2019-12-09 02:03:07,2019-12-09 02:03:11,4.012s,PASSED
+"scrollToPosition(9999999, 9999999)",Chrome 78.0.3904.108,,2019-12-09 02:03:11,2019-12-09 02:03:11,0.028s,PASSED
+"verifyElementVisible(findTestObject(""Footer elements/h4_Information""))",Chrome 78.0.3904.108,,2019-12-09 02:03:11,2019-12-09 02:03:11,0.052s,PASSED
+"verifyElementPresent(findTestObject(""Footer elements/a_Specials""), 1)",Chrome 78.0.3904.108,,2019-12-09 02:03:11,2019-12-09 02:03:11,0.022s,PASSED
+"verifyElementPresent(findTestObject(""Footer elements/a_New products""), 1)",Chrome 78.0.3904.108,,2019-12-09 02:03:11,2019-12-09 02:03:11,0.023s,PASSED
+"verifyElementPresent(findTestObject(""Footer elements/a_Best sellers""), 1)",Chrome 78.0.3904.108,,2019-12-09 02:03:11,2019-12-09 02:03:11,0.019s,PASSED
+"verifyElementPresent(findTestObject(""Footer elements/a_Our stores""), 1)",Chrome 78.0.3904.108,,2019-12-09 02:03:11,2019-12-09 02:03:11,0.020s,PASSED
+"verifyElementPresent(findTestObject(""Footer elements/a_Contact us""), 1)",Chrome 78.0.3904.108,,2019-12-09 02:03:11,2019-12-09 02:03:11,0.023s,PASSED
+"verifyElementPresent(findTestObject(""Footer elements/a_Terms and conditions of use""), 1)",Chrome 78.0.3904.108,,2019-12-09 02:03:11,2019-12-09 02:03:11,0.025s,PASSED
+"verifyElementPresent(findTestObject(""Object Repository/Footer elements/a_About us""), 1)",Chrome 78.0.3904.108,,2019-12-09 02:03:11,2019-12-09 02:03:11,0.019s,PASSED
+"verifyElementPresent(findTestObject(""Footer elements/a_Sitemap""), 1)",Chrome 78.0.3904.108,,2019-12-09 02:03:11,2019-12-09 02:03:11,0.022s,PASSED
+"verifyLinksAccessible([""http://automationpractice.com/index.php?controller=prices-drop"", ""http://automationpractice.com/index.php?controller=new-products"", ""http://automationpractice.com/index.php?controller=best-sales"", ""http://automationpractice.com/index.php?controller=stores"", ""http://automationpractice.com/index.php?controller=contact"", ""http://automationpractice.com/index.php?id_cms=3&controller=cms"", ""http://automationpractice.com/index.php?id_cms=4&controller=cms"", ""http://automationpractice.com/index.php?controller=sitemap""])",Chrome 78.0.3904.108,,2019-12-09 02:03:11,2019-12-09 02:03:21,10.472s,PASSED
+closeBrowser(),Chrome 78.0.3904.108,,2019-12-09 02:03:21,2019-12-09 02:03:22,0.150s,PASSED
+,,,,,,
+Test Cases/regression/header and footer Desktop/Footer My account Desktop,Chrome 78.0.3904.108,,2019-12-09 02:03:22,2019-12-09 02:03:32,10.247s,PASSED
+"openBrowser("""")",Chrome 78.0.3904.108,,2019-12-09 02:03:22,2019-12-09 02:03:23,1.414s,PASSED
+"navigateToUrl(""http://automationpractice.com/index.php"")",Chrome 78.0.3904.108,,2019-12-09 02:03:23,2019-12-09 02:03:27,4.154s,PASSED
+"verifyElementClickable(findTestObject(""Object Repository/Footer elements/Page_Login - My Store/a_My account""))",Chrome 78.0.3904.108,,2019-12-09 02:03:27,2019-12-09 02:03:27,0.046s,PASSED
+"verifyElementClickable(findTestObject(""Object Repository/Footer elements/Page_Login - My Store/a_My orders""))",Chrome 78.0.3904.108,,2019-12-09 02:03:27,2019-12-09 02:03:27,0.027s,PASSED
+"verifyElementClickable(findTestObject(""Object Repository/Footer elements/Page_Login - My Store/a_My credit slips""))",Chrome 78.0.3904.108,,2019-12-09 02:03:27,2019-12-09 02:03:27,0.030s,PASSED
+"verifyElementClickable(findTestObject(""Object Repository/Footer elements/Page_Login - My Store/a_My addresses""))",Chrome 78.0.3904.108,,2019-12-09 02:03:27,2019-12-09 02:03:27,0.026s,PASSED
+"verifyElementClickable(findTestObject(""Object Repository/Footer elements/Page_Login - My Store/a_My personal info""))",Chrome 78.0.3904.108,,2019-12-09 02:03:27,2019-12-09 02:03:27,0.027s,PASSED
+"verifyLinksAccessible([""http://automationpractice.com/index.php?controller=authentication&back=my-account"", ""http://automationpractice.com/index.php?controller=authentication&back=history"", ""http://automationpractice.com/index.php?controller=authentication&back=order-slip"", ""http://automationpractice.com/index.php?controller=authentication&back=addresses"", ""http://automationpractice.com/index.php?controller=authentication&back=identity""])",Chrome 78.0.3904.108,,2019-12-09 02:03:27,2019-12-09 02:03:32,4.140s,PASSED
+closeBrowser(),Chrome 78.0.3904.108,,2019-12-09 02:03:32,2019-12-09 02:03:32,0.173s,PASSED
+,,,,,,
+Test Cases/regression/header and footer Desktop/Footer Store information Desktop,Chrome 78.0.3904.108,,2019-12-09 02:03:32,2019-12-09 02:03:40,8.052s,PASSED
+"openBrowser("""")",Chrome 78.0.3904.108,,2019-12-09 02:03:32,2019-12-09 02:03:33,1.276s,PASSED
+"navigateToUrl(""http://automationpractice.com/index.php"")",Chrome 78.0.3904.108,,2019-12-09 02:03:33,2019-12-09 02:03:37,4.069s,PASSED
+"scrollToPosition(9999999, 9999999)",Chrome 78.0.3904.108,,2019-12-09 02:03:37,2019-12-09 02:03:37,0.014s,PASSED
+"verifyElementVisible(findTestObject(""Object Repository/Footer elements/Page_My Store/h4_Store information""))",Chrome 78.0.3904.108,,2019-12-09 02:03:37,2019-12-09 02:03:37,0.045s,PASSED
+"verifyTextPresent(""Selenium Framework, Research Triangle Park, North Carolina, USA"", false)",Chrome 78.0.3904.108,,2019-12-09 02:03:37,2019-12-09 02:03:38,0.290s,PASSED
+"verifyTextPresent(""(347) 466-7432"", false)",Chrome 78.0.3904.108,,2019-12-09 02:03:38,2019-12-09 02:03:38,0.185s,PASSED
+"verifyTextPresent(""Call us now"", false)",Chrome 78.0.3904.108,,2019-12-09 02:03:38,2019-12-09 02:03:38,0.196s,PASSED
+"verifyTextPresent(""Email"", false)",Chrome 78.0.3904.108,,2019-12-09 02:03:38,2019-12-09 02:03:38,0.136s,PASSED
+"verifyTextPresent(""support@seleniumframework.com"", false)",Chrome 78.0.3904.108,,2019-12-09 02:03:38,2019-12-09 02:03:38,0.126s,PASSED
+"verifyTextPresent(""Ecommerce software by PrestaShop™"", false)",Chrome 78.0.3904.108,,2019-12-09 02:03:38,2019-12-09 02:03:38,0.128s,PASSED
+"verifyTextPresent(""2014"", false)",Chrome 78.0.3904.108,,2019-12-09 02:03:38,2019-12-09 02:03:39,0.132s,PASSED
+"verifyLinksAccessible([""https://www.prestashop.com/""])",Chrome 78.0.3904.108,,2019-12-09 02:03:39,2019-12-09 02:03:40,1.153s,PASSED
+closeBrowser(),Chrome 78.0.3904.108,,2019-12-09 02:03:40,2019-12-09 02:03:40,0.164s,PASSED
+,,,,,,
+Test Cases/regression/header and footer Desktop/Footer Subscribe Desktop,Chrome 78.0.3904.108,,2019-12-09 02:03:40,2019-12-09 02:03:52,12.401s,PASSED
+"openBrowser("""")",Chrome 78.0.3904.108,,2019-12-09 02:03:40,2019-12-09 02:03:42,1.545s,PASSED
+"navigateToUrl(""http://automationpractice.com/index.php"")",Chrome 78.0.3904.108,,2019-12-09 02:03:42,2019-12-09 02:03:46,4.166s,PASSED
+"setText(findTestObject(""Footer elements/subscribe/input_Newsletter_email""), ""Testtest.com"")",Chrome 78.0.3904.108,,2019-12-09 02:03:46,2019-12-09 02:03:46,0.220s,PASSED
+"click(findTestObject(""Footer elements/subscribe/button_Ok""))",Chrome 78.0.3904.108,,2019-12-09 02:03:46,2019-12-09 02:03:48,1.822s,PASSED
+"verifyElementVisible(findTestObject(""Footer elements/subscribe/p_Newsletter  Invalid email address.""))",Chrome 78.0.3904.108,,2019-12-09 02:03:48,2019-12-09 02:03:48,0.051s,PASSED
+"setText(findTestObject(""Footer elements/subscribe/input_Newsletter_email""), ""Test@Test.com"")",Chrome 78.0.3904.108,,2019-12-09 02:03:48,2019-12-09 02:03:48,0.196s,PASSED
+"click(findTestObject(""Footer elements/subscribe/button_Ok""))",Chrome 78.0.3904.108,,2019-12-09 02:03:48,2019-12-09 02:03:50,2.068s,PASSED
+"verifyElementVisible(findTestObject(""Footer elements/subscribe/p_Newsletter  This email address is already registered.""))",Chrome 78.0.3904.108,,2019-12-09 02:03:50,2019-12-09 02:03:50,0.073s,PASSED
+"setText(findTestObject(""Footer elements/subscribe/input_Newsletter_email""), ""Blagoja@blagoja1.com"")",Chrome 78.0.3904.108,,2019-12-09 02:03:50,2019-12-09 02:03:50,0.207s,PASSED
+"click(findTestObject(""Footer elements/subscribe/button_Ok""))",Chrome 78.0.3904.108,,2019-12-09 02:03:50,2019-12-09 02:03:52,1.634s,PASSED
+"verifyElementVisible(findTestObject(""Footer elements/subscribe/p_Newsletter  You have successfully subscribed to this newsletter.""))",Chrome 78.0.3904.108,,2019-12-09 02:03:52,2019-12-09 02:03:52,0.035s,PASSED
+closeBrowser(),Chrome 78.0.3904.108,,2019-12-09 02:03:52,2019-12-09 02:03:52,0.165s,PASSED
+,,,,,,
+Test Cases/regression/header and footer Desktop/Header Search Desktop,Chrome 78.0.3904.108,,2019-12-09 02:03:52,2019-12-09 02:04:02,9.818s,PASSED
+"openBrowser("""")",Chrome 78.0.3904.108,,2019-12-09 02:03:52,2019-12-09 02:03:54,1.449s,PASSED
+"navigateToUrl(""http://automationpractice.com/index.php"")",Chrome 78.0.3904.108,,2019-12-09 02:03:54,2019-12-09 02:03:58,3.973s,PASSED
+"setText(findTestObject(""Object Repository/Search/div_Search""), ""sefaesd"")",Chrome 78.0.3904.108,,2019-12-09 02:03:58,2019-12-09 02:03:58,0.188s,PASSED
+"click(findTestObject(""Object Repository/Search/button_Search""))",Chrome 78.0.3904.108,,2019-12-09 02:03:58,2019-12-09 02:03:59,1.394s,PASSED
+"verifyElementPresent(findTestObject(""Search/no results""), 1)",Chrome 78.0.3904.108,,2019-12-09 02:03:59,2019-12-09 02:03:59,0.023s,PASSED
+"click(findTestObject(""Search/div_Search""))",Chrome 78.0.3904.108,,2019-12-09 02:03:59,2019-12-09 02:03:59,0.053s,PASSED
+"clearText(findTestObject(""Search/div_Search""))",Chrome 78.0.3904.108,,2019-12-09 02:03:59,2019-12-09 02:04:00,0.070s,PASSED
+"setText(findTestObject(""Search/div_Search""), ""Printed Chiffon Dress"")",Chrome 78.0.3904.108,,2019-12-09 02:04:00,2019-12-09 02:04:00,0.231s,PASSED
+"click(findTestObject(""Object Repository/Search/button_Search""))",Chrome 78.0.3904.108,,2019-12-09 02:04:00,2019-12-09 02:04:01,1.683s,PASSED
+"verifyTextPresent(""2 results have been found"", false)",Chrome 78.0.3904.108,,2019-12-09 02:04:01,2019-12-09 02:04:02,0.515s,PASSED
+closeBrowser(),Chrome 78.0.3904.108,,2019-12-09 02:04:02,2019-12-09 02:04:02,0.115s,PASSED
+,,,,,,
+Test Cases/regression/header and footer Desktop/Header-Elements Present Desktop,Chrome 78.0.3904.108,,2019-12-09 02:04:02,2019-12-09 02:04:10,8.336s,PASSED
+"openBrowser("""")",Chrome 78.0.3904.108,,2019-12-09 02:04:02,2019-12-09 02:04:05,2.317s,PASSED
+"navigateToUrl(""http://automationpractice.com/index.php"")",Chrome 78.0.3904.108,,2019-12-09 02:04:05,2019-12-09 02:04:09,3.939s,PASSED
+"verifyElementPresent(findTestObject(""header elements/img_Sign in_img-responsive""), 1)",Chrome 78.0.3904.108,,2019-12-09 02:04:09,2019-12-09 02:04:09,0.023s,PASSED
+"verifyElementPresent(findTestObject(""header elements/span_Call us now 0123-456-789""), 1)",Chrome 78.0.3904.108,,2019-12-09 02:04:09,2019-12-09 02:04:09,0.016s,PASSED
+"verifyElementPresent(findTestObject(""header elements/strong_0123-456-789""), 1)",Chrome 78.0.3904.108,,2019-12-09 02:04:09,2019-12-09 02:04:09,0.016s,PASSED
+"verifyElementText(findTestObject(""header elements/strong_0123-456-789""), ""0123-456-789"")",Chrome 78.0.3904.108,,2019-12-09 02:04:09,2019-12-09 02:04:09,0.034s,PASSED
+"verifyElementPresent(findTestObject(""header elements/i_Call us now_icon-phone""), 1)",Chrome 78.0.3904.108,,2019-12-09 02:04:09,2019-12-09 02:04:09,0.020s,PASSED
+"verifyElementPresent(findTestObject(""header elements/a_Contact us""), 1)",Chrome 78.0.3904.108,,2019-12-09 02:04:09,2019-12-09 02:04:09,0.017s,PASSED
+"verifyElementText(findTestObject(""header elements/a_Contact us""), ""Contact us"")",Chrome 78.0.3904.108,,2019-12-09 02:04:09,2019-12-09 02:04:09,0.025s,PASSED
+"verifyElementPresent(findTestObject(""header elements/a_Sign in""), 1)",Chrome 78.0.3904.108,,2019-12-09 02:04:09,2019-12-09 02:04:09,0.017s,PASSED
+"verifyElementText(findTestObject(""header elements/a_Sign in""), ""Sign in"")",Chrome 78.0.3904.108,,2019-12-09 02:04:09,2019-12-09 02:04:09,0.028s,PASSED
+"verifyElementPresent(findTestObject(""header elements/img_Call us now_logo img-responsive""), 1)",Chrome 78.0.3904.108,,2019-12-09 02:04:09,2019-12-09 02:04:09,0.016s,PASSED
+"verifyElementPresent(findTestObject(""header elements/a_Cart0ProductProducts(empty)""), 1)",Chrome 78.0.3904.108,,2019-12-09 02:04:09,2019-12-09 02:04:09,0.016s,PASSED
+"verifyElementPresent(findTestObject(""header elements/div_Search""), 1)",Chrome 78.0.3904.108,,2019-12-09 02:04:09,2019-12-09 02:04:09,0.017s,PASSED
+"verifyElementPresent(findTestObject(""header elements/ul_WomenTopsT-shirtsBlousesDressesCasual DressesEvening DressesSummer DressesDressesCasual DressesEvening DressesSummer DressesT-shirts""), 1)",Chrome 78.0.3904.108,,2019-12-09 02:04:09,2019-12-09 02:04:09,0.017s,PASSED
+"takeScreenshot(""TestScreenShots/header.png"")",Chrome 78.0.3904.108,,2019-12-09 02:04:09,2019-12-09 02:04:10,1.375s,PASSED
+closeBrowser(),Chrome 78.0.3904.108,,2019-12-09 02:04:10,2019-12-09 02:04:10,0.147s,PASSED
+,,,,,,
+Test Cases/regression/Navigation/Main Navigation Menu Desktop,Chrome 78.0.3904.108,,2019-12-09 02:04:10,2019-12-09 02:04:22,11.513s,PASSED
+"openBrowser("""")",Chrome 78.0.3904.108,,2019-12-09 02:04:11,2019-12-09 02:04:12,1.589s,PASSED
+"navigateToUrl(""http://automationpractice.com/index.php"")",Chrome 78.0.3904.108,,2019-12-09 02:04:12,2019-12-09 02:04:16,4.017s,PASSED
+"verifyElementClickable(findTestObject(""navigation menu/a_Women""))",Chrome 78.0.3904.108,,2019-12-09 02:04:16,2019-12-09 02:04:16,0.033s,PASSED
+"verifyElementClickable(findTestObject(""navigation menu/a_T-shirts""))",Chrome 78.0.3904.108,,2019-12-09 02:04:16,2019-12-09 02:04:16,0.031s,PASSED
+"verifyElementClickable(findTestObject(""navigation menu/a_Dresses""))",Chrome 78.0.3904.108,,2019-12-09 02:04:16,2019-12-09 02:04:16,0.029s,PASSED
+"click(findTestObject(""navigation menu/a_Women""))",Chrome 78.0.3904.108,,2019-12-09 02:04:16,2019-12-09 02:04:19,2.250s,PASSED
+"assert getWindowTitle() == ""Women - My Store""",Chrome 78.0.3904.108,,2019-12-09 02:04:19,2019-12-09 02:04:19,0.018s,PASSED
+CurrentUrl = getUrl(),Chrome 78.0.3904.108,,2019-12-09 02:04:19,2019-12-09 02:04:19,0.009s,PASSED
+"verifyMatch(CurrentUrl, ""http://automationpractice.com/index.php?id_category=3&controller=category"", false)",Chrome 78.0.3904.108,,2019-12-09 02:04:19,2019-12-09 02:04:19,0.002s,PASSED
+"click(findTestObject(""navigation menu/a_T-shirts""))",Chrome 78.0.3904.108,,2019-12-09 02:04:19,2019-12-09 02:04:20,1.270s,PASSED
+"assert getWindowTitle() == ""T-shirts - My Store""",Chrome 78.0.3904.108,,2019-12-09 02:04:20,2019-12-09 02:04:20,0.009s,PASSED
+CurrentUrl1 = getUrl(),Chrome 78.0.3904.108,,2019-12-09 02:04:20,2019-12-09 02:04:20,0.018s,PASSED
+"verifyMatch(CurrentUrl1, ""http://automationpractice.com/index.php?id_category=5&controller=category"", false)",Chrome 78.0.3904.108,,2019-12-09 02:04:20,2019-12-09 02:04:20,0.002s,PASSED
+"click(findTestObject(""navigation menu/a_Dresses""))",Chrome 78.0.3904.108,,2019-12-09 02:04:20,2019-12-09 02:04:22,1.842s,PASSED
+"assert getWindowTitle() == ""Dresses - My Store""",Chrome 78.0.3904.108,,2019-12-09 02:04:22,2019-12-09 02:04:22,0.012s,PASSED
+CurrentUrl2 = getUrl(),Chrome 78.0.3904.108,,2019-12-09 02:04:22,2019-12-09 02:04:22,0.008s,PASSED
+"verifyMatch(CurrentUrl2, ""http://automationpractice.com/index.php?id_category=8&controller=category"", false)",Chrome 78.0.3904.108,,2019-12-09 02:04:22,2019-12-09 02:04:22,0.002s,PASSED
+closeBrowser(),Chrome 78.0.3904.108,,2019-12-09 02:04:22,2019-12-09 02:04:22,0.171s,PASSED
+,,,,,,
+Test Cases/regression/Navigation/Main Navigation Sub Menu -Dresses- Desktop,Chrome 78.0.3904.108,,2019-12-09 02:04:22,2019-12-09 02:04:43,20.846s,PASSED
+"openBrowser("""")",Chrome 78.0.3904.108,,2019-12-09 02:04:22,2019-12-09 02:04:24,1.544s,PASSED
+"navigateToUrl(""http://automationpractice.com/index.php"")",Chrome 78.0.3904.108,,2019-12-09 02:04:24,2019-12-09 02:04:28,4.121s,PASSED
+"mouseOver(findTestObject(""navigation menu/a_Dresses""))",Chrome 78.0.3904.108,,2019-12-09 02:04:28,2019-12-09 02:04:28,0.082s,PASSED
+delay(3),Chrome 78.0.3904.108,,2019-12-09 02:04:28,2019-12-09 02:04:31,3.008s,PASSED
+"verifyElementClickable(findTestObject(""navigation menu/a_Casual_Dresses""))",Chrome 78.0.3904.108,,2019-12-09 02:04:31,2019-12-09 02:04:31,0.031s,PASSED
+"verifyElementClickable(findTestObject(""navigation menu/a_Evening_Dresses""))",Chrome 78.0.3904.108,,2019-12-09 02:04:31,2019-12-09 02:04:31,0.025s,PASSED
+"verifyElementClickable(findTestObject(""navigation menu/a_Summer_Dresses""))",Chrome 78.0.3904.108,,2019-12-09 02:04:31,2019-12-09 02:04:31,0.026s,PASSED
+"click(findTestObject(""navigation menu/a_Casual_Dresses""))",Chrome 78.0.3904.108,,2019-12-09 02:04:31,2019-12-09 02:04:33,1.848s,PASSED
+"assert getWindowTitle() == ""Casual Dresses - My Store""",Chrome 78.0.3904.108,,2019-12-09 02:04:33,2019-12-09 02:04:33,0.012s,PASSED
+CurrentUrl10 = getUrl(),Chrome 78.0.3904.108,,2019-12-09 02:04:33,2019-12-09 02:04:33,0.010s,PASSED
+"verifyMatch(CurrentUrl10, ""http://automationpractice.com/index.php?id_category=9&controller=category"", false)",Chrome 78.0.3904.108,,2019-12-09 02:04:33,2019-12-09 02:04:33,0.002s,PASSED
+"mouseOver(findTestObject(""navigation menu/a_Dresses""))",Chrome 78.0.3904.108,,2019-12-09 02:04:33,2019-12-09 02:04:33,0.042s,PASSED
+delay(3),Chrome 78.0.3904.108,,2019-12-09 02:04:33,2019-12-09 02:04:36,3.004s,PASSED
+"click(findTestObject(""navigation menu/a_Summer_Dresses""))",Chrome 78.0.3904.108,,2019-12-09 02:04:36,2019-12-09 02:04:38,1.974s,PASSED
+"assert getWindowTitle() == ""Summer Dresses - My Store""",Chrome 78.0.3904.108,,2019-12-09 02:04:38,2019-12-09 02:04:38,0.016s,PASSED
+CurrentUrl9 = getUrl(),Chrome 78.0.3904.108,,2019-12-09 02:04:38,2019-12-09 02:04:38,0.008s,PASSED
+"verifyMatch(CurrentUrl9, ""http://automationpractice.com/index.php?id_category=11&controller=category"", false)",Chrome 78.0.3904.108,,2019-12-09 02:04:38,2019-12-09 02:04:38,0.003s,PASSED
+"mouseOver(findTestObject(""navigation menu/a_Dresses""))",Chrome 78.0.3904.108,,2019-12-09 02:04:38,2019-12-09 02:04:38,0.042s,PASSED
+delay(3),Chrome 78.0.3904.108,,2019-12-09 02:04:38,2019-12-09 02:04:41,3.004s,PASSED
+"click(findTestObject(""navigation menu/a_Evening_Dresses""))",Chrome 78.0.3904.108,,2019-12-09 02:04:41,2019-12-09 02:04:43,1.750s,PASSED
+"assert getWindowTitle() == ""Evening Dresses - My Store""",Chrome 78.0.3904.108,,2019-12-09 02:04:43,2019-12-09 02:04:43,0.010s,PASSED
+CurrentUrl11 = getUrl(),Chrome 78.0.3904.108,,2019-12-09 02:04:43,2019-12-09 02:04:43,0.007s,PASSED
+"verifyMatch(CurrentUrl11, ""http://automationpractice.com/index.php?id_category=10&controller=category"", false)",Chrome 78.0.3904.108,,2019-12-09 02:04:43,2019-12-09 02:04:43,0.003s,PASSED
+closeBrowser(),Chrome 78.0.3904.108,,2019-12-09 02:04:43,2019-12-09 02:04:43,0.129s,PASSED
+,,,,,,
+Test Cases/regression/Navigation/Main Navigation Sub Menu -Women- Desktop,Chrome 78.0.3904.108,,2019-12-09 02:04:43,2019-12-09 02:05:29,46.179s,PASSED
+"openBrowser("""")",Chrome 78.0.3904.108,,2019-12-09 02:04:43,2019-12-09 02:04:45,1.614s,PASSED
+"navigateToUrl(""http://automationpractice.com/index.php"")",Chrome 78.0.3904.108,,2019-12-09 02:04:45,2019-12-09 02:04:49,4.197s,PASSED
+"mouseOver(findTestObject(""navigation menu/a_Women""))",Chrome 78.0.3904.108,,2019-12-09 02:04:49,2019-12-09 02:04:49,0.052s,PASSED
+delay(3),Chrome 78.0.3904.108,,2019-12-09 02:04:49,2019-12-09 02:04:52,3.002s,PASSED
+"verifyElementClickable(findTestObject(""navigation menu/a_Tops""))",Chrome 78.0.3904.108,,2019-12-09 02:04:52,2019-12-09 02:04:52,0.029s,PASSED
+"verifyElementClickable(findTestObject(""navigation menu/a_Blouses""))",Chrome 78.0.3904.108,,2019-12-09 02:04:52,2019-12-09 02:04:52,0.028s,PASSED
+"verifyElementClickable(findTestObject(""Object Repository/navigation menu/a_T-shirts - sub""))",Chrome 78.0.3904.108,,2019-12-09 02:04:52,2019-12-09 02:04:52,0.032s,PASSED
+"click(findTestObject(""navigation menu/a_Tops""))",Chrome 78.0.3904.108,,2019-12-09 02:04:52,2019-12-09 02:04:54,2.541s,PASSED
+"assert getWindowTitle() == ""Tops - My Store""",Chrome 78.0.3904.108,,2019-12-09 02:04:54,2019-12-09 02:04:55,0.009s,PASSED
+CurrentUrl3 = getUrl(),Chrome 78.0.3904.108,,2019-12-09 02:04:55,2019-12-09 02:04:55,0.012s,PASSED
+"verifyMatch(CurrentUrl3, ""http://automationpractice.com/index.php?id_category=4&controller=category"", false)",Chrome 78.0.3904.108,,2019-12-09 02:04:55,2019-12-09 02:04:55,0.002s,PASSED
+"mouseOver(findTestObject(""navigation menu/a_Women""))",Chrome 78.0.3904.108,,2019-12-09 02:04:55,2019-12-09 02:04:55,0.042s,PASSED
+delay(3),Chrome 78.0.3904.108,,2019-12-09 02:04:55,2019-12-09 02:04:58,3.006s,PASSED
+"click(findTestObject(""navigation menu/a_Blouses""))",Chrome 78.0.3904.108,,2019-12-09 02:04:58,2019-12-09 02:04:59,1.712s,PASSED
+delay(3),Chrome 78.0.3904.108,,2019-12-09 02:04:59,2019-12-09 02:05:02,3.009s,PASSED
+"assert getWindowTitle() == ""Blouses - My Store""",Chrome 78.0.3904.108,,2019-12-09 02:05:02,2019-12-09 02:05:02,0.010s,PASSED
+CurrentUrl4 = getUrl(),Chrome 78.0.3904.108,,2019-12-09 02:05:02,2019-12-09 02:05:02,0.008s,PASSED
+"verifyMatch(CurrentUrl4, ""http://automationpractice.com/index.php?id_category=7&controller=category"", false)",Chrome 78.0.3904.108,,2019-12-09 02:05:02,2019-12-09 02:05:02,0.002s,PASSED
+"mouseOver(findTestObject(""navigation menu/a_Women""))",Chrome 78.0.3904.108,,2019-12-09 02:05:02,2019-12-09 02:05:02,0.042s,PASSED
+delay(3),Chrome 78.0.3904.108,,2019-12-09 02:05:02,2019-12-09 02:05:05,3.003s,PASSED
+"click(findTestObject(""navigation menu/a_T-shirts - sub""))",Chrome 78.0.3904.108,,2019-12-09 02:05:05,2019-12-09 02:05:07,1.916s,PASSED
+"assert getWindowTitle() == ""T-shirts - My Store""",Chrome 78.0.3904.108,,2019-12-09 02:05:07,2019-12-09 02:05:07,0.009s,PASSED
+CurrentUrl5 = getUrl(),Chrome 78.0.3904.108,,2019-12-09 02:05:07,2019-12-09 02:05:07,0.007s,PASSED
+"verifyMatch(CurrentUrl5, ""http://automationpractice.com/index.php?id_category=5&controller=category"", false)",Chrome 78.0.3904.108,,2019-12-09 02:05:07,2019-12-09 02:05:07,0.001s,PASSED
+"mouseOver(findTestObject(""navigation menu/a_Women""))",Chrome 78.0.3904.108,,2019-12-09 02:05:07,2019-12-09 02:05:07,0.033s,PASSED
+delay(3),Chrome 78.0.3904.108,,2019-12-09 02:05:07,2019-12-09 02:05:10,3.001s,PASSED
+"verifyElementClickable(findTestObject(""navigation menu/a_Dresses - Sub""))",Chrome 78.0.3904.108,,2019-12-09 02:05:10,2019-12-09 02:05:10,0.033s,PASSED
+"verifyElementClickable(findTestObject(""navigation menu/a_Casual Dresses""))",Chrome 78.0.3904.108,,2019-12-09 02:05:10,2019-12-09 02:05:10,0.030s,PASSED
+"verifyElementClickable(findTestObject(""navigation menu/a_Evening Dresses""))",Chrome 78.0.3904.108,,2019-12-09 02:05:10,2019-12-09 02:05:10,0.039s,PASSED
+"verifyElementClickable(findTestObject(""navigation menu/a_Summer Dresses""))",Chrome 78.0.3904.108,,2019-12-09 02:05:10,2019-12-09 02:05:10,0.037s,PASSED
+"click(findTestObject(""navigation menu/a_Dresses - Sub""))",Chrome 78.0.3904.108,,2019-12-09 02:05:10,2019-12-09 02:05:13,2.976s,PASSED
+"assert getWindowTitle() == ""Dresses - My Store""",Chrome 78.0.3904.108,,2019-12-09 02:05:13,2019-12-09 02:05:13,0.009s,PASSED
+CurrentUrl8 = getUrl(),Chrome 78.0.3904.108,,2019-12-09 02:05:13,2019-12-09 02:05:13,0.007s,PASSED
+"verifyMatch(CurrentUrl8, ""http://automationpractice.com/index.php?id_category=8&controller=category"", false)",Chrome 78.0.3904.108,,2019-12-09 02:05:13,2019-12-09 02:05:13,0.001s,PASSED
+"mouseOver(findTestObject(""navigation menu/a_Women""))",Chrome 78.0.3904.108,,2019-12-09 02:05:13,2019-12-09 02:05:14,0.039s,PASSED
+delay(3),Chrome 78.0.3904.108,,2019-12-09 02:05:14,2019-12-09 02:05:17,3.002s,PASSED
+"click(findTestObject(""navigation menu/a_Casual Dresses""))",Chrome 78.0.3904.108,,2019-12-09 02:05:17,2019-12-09 02:05:18,1.670s,PASSED
+"assert getWindowTitle() == ""Casual Dresses - My Store""",Chrome 78.0.3904.108,,2019-12-09 02:05:18,2019-12-09 02:05:18,0.009s,PASSED
+CurrentUrl8 = getUrl(),Chrome 78.0.3904.108,,2019-12-09 02:05:18,2019-12-09 02:05:18,0.015s,PASSED
+"verifyMatch(CurrentUrl8, ""http://automationpractice.com/index.php?id_category=9&controller=category"", false)",Chrome 78.0.3904.108,,2019-12-09 02:05:18,2019-12-09 02:05:18,0.001s,PASSED
+"mouseOver(findTestObject(""navigation menu/a_Women""))",Chrome 78.0.3904.108,,2019-12-09 02:05:18,2019-12-09 02:05:18,0.042s,PASSED
+delay(3),Chrome 78.0.3904.108,,2019-12-09 02:05:18,2019-12-09 02:05:21,3.004s,PASSED
+"click(findTestObject(""navigation menu/a_Evening Dresses""))",Chrome 78.0.3904.108,,2019-12-09 02:05:21,2019-12-09 02:05:23,1.568s,PASSED
+"assert getWindowTitle() == ""Evening Dresses - My Store""",Chrome 78.0.3904.108,,2019-12-09 02:05:23,2019-12-09 02:05:23,0.010s,PASSED
+CurrentUrl6 = getUrl(),Chrome 78.0.3904.108,,2019-12-09 02:05:23,2019-12-09 02:05:23,0.009s,PASSED
+"verifyMatch(CurrentUrl6, ""http://automationpractice.com/index.php?id_category=10&controller=category"", false)",Chrome 78.0.3904.108,,2019-12-09 02:05:23,2019-12-09 02:05:23,0.001s,PASSED
+"mouseOver(findTestObject(""navigation menu/a_Women""))",Chrome 78.0.3904.108,,2019-12-09 02:05:23,2019-12-09 02:05:23,0.039s,PASSED
+delay(3),Chrome 78.0.3904.108,,2019-12-09 02:05:23,2019-12-09 02:05:26,3.008s,PASSED
+"click(findTestObject(""navigation menu/a_Summer Dresses""))",Chrome 78.0.3904.108,,2019-12-09 02:05:26,2019-12-09 02:05:29,2.899s,PASSED
+"assert getWindowTitle() == ""Summer Dresses - My Store""",Chrome 78.0.3904.108,,2019-12-09 02:05:29,2019-12-09 02:05:29,0.011s,PASSED
+CurrentUrl7 = getUrl(),Chrome 78.0.3904.108,,2019-12-09 02:05:29,2019-12-09 02:05:29,0.008s,PASSED
+"verifyMatch(CurrentUrl7, ""http://automationpractice.com/index.php?id_category=11&controller=category"", false)",Chrome 78.0.3904.108,,2019-12-09 02:05:29,2019-12-09 02:05:29,0.002s,PASSED
+closeBrowser(),Chrome 78.0.3904.108,,2019-12-09 02:05:29,2019-12-09 02:05:29,0.154s,PASSED
+,,,,,,
+Test Cases/regression/User andComercial workflows/Sign in and Sign out Desktop,Chrome 78.0.3904.108,,2019-12-09 02:05:29,2019-12-09 02:05:43,14.258s,PASSED
+"openBrowser("""")",Chrome 78.0.3904.108,,2019-12-09 02:05:29,2019-12-09 02:05:31,1.419s,PASSED
+"navigateToUrl(""http://automationpractice.com/index.php"")",Chrome 78.0.3904.108,,2019-12-09 02:05:31,2019-12-09 02:05:35,4.346s,PASSED
+"click(findTestObject(""Page_My Store/a_Sign in""))",Chrome 78.0.3904.108,,2019-12-09 02:05:35,2019-12-09 02:05:36,1.325s,PASSED
+"setText(findTestObject(""SignInSignOut/Page_Login - My Store/input_Email address_email""), ""blagoja11@gmail.com"")",Chrome 78.0.3904.108,,2019-12-09 02:05:36,2019-12-09 02:05:36,0.266s,PASSED
+"setEncryptedText(findTestObject(""SignInSignOut/Page_Login - My Store/input_Password_passwd""), ""gfzG1VEcrbZGbK4KTMQXQw=="")",Chrome 78.0.3904.108,,2019-12-09 02:05:36,2019-12-09 02:05:37,0.153s,PASSED
+"click(findTestObject(""SignInSignOut/Page_Login - My Store/span_Sign in""))",Chrome 78.0.3904.108,,2019-12-09 02:05:37,2019-12-09 02:05:38,1.464s,PASSED
+"verifyElementVisible(findTestObject(""SignInSignOut/Page_Login - My Store/p_Welcome to your account. Here you can manage all of your personal information and orders.""))",Chrome 78.0.3904.108,,2019-12-09 02:05:38,2019-12-09 02:05:38,0.063s,PASSED
+"click(findTestObject(""SignInSignOut/Page_Login - My Store/a_Sign out""))",Chrome 78.0.3904.108,,2019-12-09 02:05:38,2019-12-09 02:05:40,1.762s,PASSED
+delay(3),Chrome 78.0.3904.108,,2019-12-09 02:05:40,2019-12-09 02:05:43,3.004s,PASSED
+"verifyTextNotPresent(""Blagoja AOPEgkj"", false)",Chrome 78.0.3904.108,,2019-12-09 02:05:43,2019-12-09 02:05:43,0.139s,PASSED
+closeBrowser(),Chrome 78.0.3904.108,,2019-12-09 02:05:43,2019-12-09 02:05:43,0.182s,PASSED
