@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
    <description></description>
-   <name>Sign in and Sign out</name>
+   <name>Sign in and Sign out Desktop</name>
    <tag></tag>
    <comment></comment>
    <testCaseGuid>a702362f-d218-4e08-8d1c-058198bdea0a</testCaseGuid>

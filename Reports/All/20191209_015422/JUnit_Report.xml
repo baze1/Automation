@@ -1,0 +1,979 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="All" time="161" tests="11" failures="1" errors="0">
+   <testsuite name="All" tests="11" failures="1" errors="0" time="161" timestamp="2019-12-09 01:54:25" hostname="blagojab - 192.168.0.18" id="Test Suites/All">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="/Users/blagojab/git/Automation/Reports/All/20191209_015422"/>
+         <property name="logFiles" value="/Users/blagojab/git/Automation/Reports/All/20191209_015422/execution0.log"/>
+         <property name="attachments" value="TestScreenShots/WomenPage.png, TestScreenShots/Footer.png, TestScreenShots/header.png"/>
+         <property name="hostName" value="blagojab - 192.168.0.18"/>
+         <property name="os" value="Mac OS X 64bit"/>
+         <property name="katalonVersion" value="6.0.5.4"/>
+         <property name="browser" value="Chrome 78.0.3904.108"/>
+         <property name="hostAddress" value="192.168.0.18"/>
+         <property name="sessionId" value="ebb1ce82383b76828944405f1847b533"/>
+         <property name="seleniumVersion" value="3.7.1"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Mac OS X"/>
+      </properties>
+      <testcase name="Test Cases/regression/header and footer Desktop/Footer Categories Desktop" classname="Test Cases/regression/header and footer Desktop/Footer Categories Desktop" status="PASSED">
+         <system-out><![CDATA[2019-12-09 01:54:25 - [TEST_CASE][PASSED] - Test Cases/regression/header and footer Desktop/Footer Categories Desktop: Test Cases/regression/header and footer Desktop/Footer Categories Desktop
+
+2019-12-09 01:54:25 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2019-12-09 01:54:26 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2019-12-09 01:54:26 - [MESSAGE][INFO] - Action delay is set to 0 seconds
+
+2019-12-09 01:54:28 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2019-12-09 01:54:28 - [TEST_STEP][PASSED] - navigateToUrl("http://automationpractice.com/index.php"): Navigate to 'http://automationpractice.com/index.php' successfully
+
+2019-12-09 01:54:33 - [MESSAGE][PASSED] - Navigate to 'http://automationpractice.com/index.php' successfully
+
+2019-12-09 01:54:33 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Object Repository/Footer elements/h4_Categories"), 2): Object 'Object Repository/Footer elements/h4_Categories' is present
+
+2019-12-09 01:54:33 - [MESSAGE][PASSED] - Object 'Object Repository/Footer elements/h4_Categories' is present
+
+2019-12-09 01:54:33 - [TEST_STEP][PASSED] - click(findTestObject("Footer elements/a_Women")): Object: 'Object Repository/Footer elements/a_Women' is clicked on
+
+2019-12-09 01:54:35 - [MESSAGE][PASSED] - Object: 'Object Repository/Footer elements/a_Women' is clicked on
+
+2019-12-09 01:54:35 - [TEST_STEP][PASSED] - CurrentUrL = getUrl(): Current window's url is: 'http://automationpractice.com/index.php?id_category=3&controller=category'
+
+2019-12-09 01:54:35 - [MESSAGE][PASSED] - Current window's url is: 'http://automationpractice.com/index.php?id_category=3&controller=category'
+
+2019-12-09 01:54:35 - [TEST_STEP][PASSED] - verifyMatch(CurrentUrL, "http://automationpractice.com/index.php?id_category=3&controller=category", false): Actual text 'http://automationpractice.com/index.php?id_category=3&controller=category' and expected text 'http://automationpractice.com/index.php?id_category=3&controller=category' are matched 
+
+2019-12-09 01:54:35 - [MESSAGE][PASSED] - Actual text 'http://automationpractice.com/index.php?id_category=3&controller=category' and expected text 'http://automationpractice.com/index.php?id_category=3&controller=category' are matched 
+
+2019-12-09 01:54:35 - [TEST_STEP][PASSED] - takeScreenshot("TestScreenShots/WomenPage.png"): Taking screenshot successfully
+
+2019-12-09 01:54:36 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|TestScreenShots/WomenPage.png]]
+
+2019-12-09 01:54:36 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2019-12-09 01:54:36 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/regression/header and footer Desktop/Footer Follow us Desktop" classname="Test Cases/regression/header and footer Desktop/Footer Follow us Desktop" status="PASSED">
+         <system-out><![CDATA[2019-12-09 01:54:36 - [TEST_CASE][PASSED] - Test Cases/regression/header and footer Desktop/Footer Follow us Desktop: Test Cases/regression/header and footer Desktop/Footer Follow us Desktop
+
+2019-12-09 01:54:36 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2019-12-09 01:54:36 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2019-12-09 01:54:38 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2019-12-09 01:54:38 - [TEST_STEP][PASSED] - navigateToUrl("http://automationpractice.com/index.php"): Navigate to 'http://automationpractice.com/index.php' successfully
+
+2019-12-09 01:54:42 - [MESSAGE][PASSED] - Navigate to 'http://automationpractice.com/index.php' successfully
+
+2019-12-09 01:54:42 - [TEST_STEP][PASSED] - scrollToPosition(9999999, 9999999): Browser is scrolled to position x = 9999999, y = 9999999
+
+2019-12-09 01:54:42 - [MESSAGE][PASSED] - Browser is scrolled to position x = 9999999, y = 9999999
+
+2019-12-09 01:54:42 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Footer elements/h4_Follow us"), 1): Object 'Object Repository/Footer elements/h4_Follow us' is present
+
+2019-12-09 01:54:42 - [MESSAGE][PASSED] - Object 'Object Repository/Footer elements/h4_Follow us' is present
+
+2019-12-09 01:54:42 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Footer elements/a_Facebook"), 1): Object 'Object Repository/Footer elements/a_Facebook' is present
+
+2019-12-09 01:54:42 - [MESSAGE][PASSED] - Object 'Object Repository/Footer elements/a_Facebook' is present
+
+2019-12-09 01:54:42 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Footer elements/a_Twitter"), 1): Object 'Object Repository/Footer elements/a_Twitter' is present
+
+2019-12-09 01:54:42 - [MESSAGE][PASSED] - Object 'Object Repository/Footer elements/a_Twitter' is present
+
+2019-12-09 01:54:42 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Footer elements/a_Youtube"), 1): Object 'Object Repository/Footer elements/a_Youtube' is present
+
+2019-12-09 01:54:42 - [MESSAGE][PASSED] - Object 'Object Repository/Footer elements/a_Youtube' is present
+
+2019-12-09 01:54:42 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Footer elements/a_Google Plus"), 1): Object 'Object Repository/Footer elements/a_Google Plus' is present
+
+2019-12-09 01:54:42 - [MESSAGE][PASSED] - Object 'Object Repository/Footer elements/a_Google Plus' is present
+
+2019-12-09 01:54:42 - [TEST_STEP][PASSED] - verifyLinksAccessible(["https://www.facebook.com/groups/525066904174158/", "https://twitter.com/seleniumfrmwrk", "https://www.youtube.com/channel/UCHl59sI3SRjQ-qPcTrgt0tA", "https://accounts.google.com/signin/v2/identifier?passive=1209600&osid=1&continue=https%3A%2F%2Fplus.google.com%2F111979135243110831526%2Fposts&followup=https%3A%2F%2Fplus.google.com%2F111979135243110831526%2Fposts&flowName=GlifWebSignIn&flowEntry=ServiceLogin"]): All links are accessible
+
+2019-12-09 01:54:46 - [MESSAGE][INFO] - HAR: /Users/blagojab/git/Automation/Reports/All/20191209_015422/requests/main/0.har
+
+2019-12-09 01:54:46 - [MESSAGE][PASSED] - Send request successfully
+
+2019-12-09 01:54:47 - [MESSAGE][INFO] - HAR: /Users/blagojab/git/Automation/Reports/All/20191209_015422/requests/main/1.har
+
+2019-12-09 01:54:47 - [MESSAGE][PASSED] - Send request successfully
+
+2019-12-09 01:54:49 - [MESSAGE][INFO] - HAR: /Users/blagojab/git/Automation/Reports/All/20191209_015422/requests/main/2.har
+
+2019-12-09 01:54:49 - [MESSAGE][PASSED] - Send request successfully
+
+2019-12-09 01:54:50 - [MESSAGE][INFO] - HAR: /Users/blagojab/git/Automation/Reports/All/20191209_015422/requests/main/3.har
+
+2019-12-09 01:54:50 - [MESSAGE][PASSED] - Send request successfully
+
+2019-12-09 01:54:50 - [MESSAGE][PASSED] - All links are accessible
+
+2019-12-09 01:54:50 - [TEST_STEP][PASSED] - takeScreenshot("TestScreenShots/Footer.png"): Taking screenshot successfully
+
+2019-12-09 01:54:50 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|TestScreenShots/Footer.png]]
+
+2019-12-09 01:54:50 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2019-12-09 01:54:50 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/regression/header and footer Desktop/Footer Information Desktop" classname="Test Cases/regression/header and footer Desktop/Footer Information Desktop" status="PASSED">
+         <system-out><![CDATA[2019-12-09 01:54:50 - [TEST_CASE][PASSED] - Test Cases/regression/header and footer Desktop/Footer Information Desktop: Test Cases/regression/header and footer Desktop/Footer Information Desktop
+
+2019-12-09 01:54:51 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2019-12-09 01:54:51 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2019-12-09 01:54:53 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2019-12-09 01:54:53 - [TEST_STEP][PASSED] - navigateToUrl("http://automationpractice.com/index.php"): Navigate to 'http://automationpractice.com/index.php' successfully
+
+2019-12-09 01:54:57 - [MESSAGE][PASSED] - Navigate to 'http://automationpractice.com/index.php' successfully
+
+2019-12-09 01:54:57 - [TEST_STEP][PASSED] - scrollToPosition(9999999, 9999999): Browser is scrolled to position x = 9999999, y = 9999999
+
+2019-12-09 01:54:57 - [MESSAGE][PASSED] - Browser is scrolled to position x = 9999999, y = 9999999
+
+2019-12-09 01:54:57 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Footer elements/h4_Information")): Object 'Object Repository/Footer elements/h4_Information' is visible
+
+2019-12-09 01:54:57 - [MESSAGE][PASSED] - Object 'Object Repository/Footer elements/h4_Information' is visible
+
+2019-12-09 01:54:57 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Footer elements/a_Specials"), 1): Object 'Object Repository/Footer elements/a_Specials' is present
+
+2019-12-09 01:54:57 - [MESSAGE][PASSED] - Object 'Object Repository/Footer elements/a_Specials' is present
+
+2019-12-09 01:54:57 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Footer elements/a_New products"), 1): Object 'Object Repository/Footer elements/a_New products' is present
+
+2019-12-09 01:54:57 - [MESSAGE][PASSED] - Object 'Object Repository/Footer elements/a_New products' is present
+
+2019-12-09 01:54:57 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Footer elements/a_Best sellers"), 1): Object 'Object Repository/Footer elements/a_Best sellers' is present
+
+2019-12-09 01:54:57 - [MESSAGE][PASSED] - Object 'Object Repository/Footer elements/a_Best sellers' is present
+
+2019-12-09 01:54:57 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Footer elements/a_Our stores"), 1): Object 'Object Repository/Footer elements/a_Our stores' is present
+
+2019-12-09 01:54:57 - [MESSAGE][PASSED] - Object 'Object Repository/Footer elements/a_Our stores' is present
+
+2019-12-09 01:54:57 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Footer elements/a_Contact us"), 1): Object 'Object Repository/Footer elements/a_Contact us' is present
+
+2019-12-09 01:54:57 - [MESSAGE][PASSED] - Object 'Object Repository/Footer elements/a_Contact us' is present
+
+2019-12-09 01:54:57 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Footer elements/a_Terms and conditions of use"), 1): Object 'Object Repository/Footer elements/a_Terms and conditions of use' is present
+
+2019-12-09 01:54:57 - [MESSAGE][PASSED] - Object 'Object Repository/Footer elements/a_Terms and conditions of use' is present
+
+2019-12-09 01:54:57 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Object Repository/Footer elements/a_About us"), 1): Object 'Object Repository/Footer elements/a_About us' is present
+
+2019-12-09 01:54:57 - [MESSAGE][PASSED] - Object 'Object Repository/Footer elements/a_About us' is present
+
+2019-12-09 01:54:57 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Footer elements/a_Sitemap"), 1): Object 'Object Repository/Footer elements/a_Sitemap' is present
+
+2019-12-09 01:54:57 - [MESSAGE][PASSED] - Object 'Object Repository/Footer elements/a_Sitemap' is present
+
+2019-12-09 01:54:57 - [TEST_STEP][PASSED] - verifyLinksAccessible(["http://automationpractice.com/index.php?controller=prices-drop", "http://automationpractice.com/index.php?controller=new-products", "http://automationpractice.com/index.php?controller=best-sales", "http://automationpractice.com/index.php?controller=stores", "http://automationpractice.com/index.php?controller=contact", "http://automationpractice.com/index.php?id_cms=3&controller=cms", "http://automationpractice.com/index.php?id_cms=4&controller=cms", "http://automationpractice.com/index.php?controller=sitemap"]): All links are accessible
+
+2019-12-09 01:54:59 - [MESSAGE][INFO] - HAR: /Users/blagojab/git/Automation/Reports/All/20191209_015422/requests/main/4.har
+
+2019-12-09 01:54:59 - [MESSAGE][PASSED] - Send request successfully
+
+2019-12-09 01:55:00 - [MESSAGE][INFO] - HAR: /Users/blagojab/git/Automation/Reports/All/20191209_015422/requests/main/5.har
+
+2019-12-09 01:55:00 - [MESSAGE][PASSED] - Send request successfully
+
+2019-12-09 01:55:01 - [MESSAGE][INFO] - HAR: /Users/blagojab/git/Automation/Reports/All/20191209_015422/requests/main/6.har
+
+2019-12-09 01:55:01 - [MESSAGE][PASSED] - Send request successfully
+
+2019-12-09 01:55:01 - [MESSAGE][INFO] - HAR: /Users/blagojab/git/Automation/Reports/All/20191209_015422/requests/main/7.har
+
+2019-12-09 01:55:01 - [MESSAGE][PASSED] - Send request successfully
+
+2019-12-09 01:55:02 - [MESSAGE][INFO] - HAR: /Users/blagojab/git/Automation/Reports/All/20191209_015422/requests/main/8.har
+
+2019-12-09 01:55:02 - [MESSAGE][PASSED] - Send request successfully
+
+2019-12-09 01:55:03 - [MESSAGE][INFO] - HAR: /Users/blagojab/git/Automation/Reports/All/20191209_015422/requests/main/9.har
+
+2019-12-09 01:55:03 - [MESSAGE][PASSED] - Send request successfully
+
+2019-12-09 01:55:03 - [MESSAGE][INFO] - HAR: /Users/blagojab/git/Automation/Reports/All/20191209_015422/requests/main/10.har
+
+2019-12-09 01:55:03 - [MESSAGE][PASSED] - Send request successfully
+
+2019-12-09 01:55:04 - [MESSAGE][INFO] - HAR: /Users/blagojab/git/Automation/Reports/All/20191209_015422/requests/main/11.har
+
+2019-12-09 01:55:04 - [MESSAGE][PASSED] - Send request successfully
+
+2019-12-09 01:55:04 - [MESSAGE][PASSED] - All links are accessible
+
+2019-12-09 01:55:04 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2019-12-09 01:55:04 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/regression/header and footer Desktop/Footer My account Desktop" classname="Test Cases/regression/header and footer Desktop/Footer My account Desktop" status="PASSED">
+         <system-out><![CDATA[2019-12-09 01:55:04 - [TEST_CASE][PASSED] - Test Cases/regression/header and footer Desktop/Footer My account Desktop: Test Cases/regression/header and footer Desktop/Footer My account Desktop
+
+2019-12-09 01:55:05 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2019-12-09 01:55:05 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2019-12-09 01:55:06 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2019-12-09 01:55:06 - [TEST_STEP][PASSED] - navigateToUrl("http://automationpractice.com/index.php"): Navigate to 'http://automationpractice.com/index.php' successfully
+
+2019-12-09 01:55:11 - [MESSAGE][PASSED] - Navigate to 'http://automationpractice.com/index.php' successfully
+
+2019-12-09 01:55:11 - [TEST_STEP][PASSED] - verifyElementClickable(findTestObject("Object Repository/Footer elements/Page_Login - My Store/a_My account")): Object 'Object Repository/Footer elements/Page_Login - My Store/a_My account' is clickable
+
+2019-12-09 01:55:11 - [MESSAGE][PASSED] - Object 'Object Repository/Footer elements/Page_Login - My Store/a_My account' is clickable
+
+2019-12-09 01:55:11 - [TEST_STEP][PASSED] - verifyElementClickable(findTestObject("Object Repository/Footer elements/Page_Login - My Store/a_My orders")): Object 'Object Repository/Footer elements/Page_Login - My Store/a_My orders' is clickable
+
+2019-12-09 01:55:11 - [MESSAGE][PASSED] - Object 'Object Repository/Footer elements/Page_Login - My Store/a_My orders' is clickable
+
+2019-12-09 01:55:11 - [TEST_STEP][PASSED] - verifyElementClickable(findTestObject("Object Repository/Footer elements/Page_Login - My Store/a_My credit slips")): Object 'Object Repository/Footer elements/Page_Login - My Store/a_My credit slips' is clickable
+
+2019-12-09 01:55:11 - [MESSAGE][PASSED] - Object 'Object Repository/Footer elements/Page_Login - My Store/a_My credit slips' is clickable
+
+2019-12-09 01:55:11 - [TEST_STEP][PASSED] - verifyElementClickable(findTestObject("Object Repository/Footer elements/Page_Login - My Store/a_My addresses")): Object 'Object Repository/Footer elements/Page_Login - My Store/a_My addresses' is clickable
+
+2019-12-09 01:55:11 - [MESSAGE][PASSED] - Object 'Object Repository/Footer elements/Page_Login - My Store/a_My addresses' is clickable
+
+2019-12-09 01:55:11 - [TEST_STEP][PASSED] - verifyElementClickable(findTestObject("Object Repository/Footer elements/Page_Login - My Store/a_My personal info")): Object 'Object Repository/Footer elements/Page_Login - My Store/a_My personal info' is clickable
+
+2019-12-09 01:55:11 - [MESSAGE][PASSED] - Object 'Object Repository/Footer elements/Page_Login - My Store/a_My personal info' is clickable
+
+2019-12-09 01:55:11 - [TEST_STEP][PASSED] - verifyLinksAccessible(["http://automationpractice.com/index.php?controller=authentication&back=my-account", "http://automationpractice.com/index.php?controller=authentication&back=history", "http://automationpractice.com/index.php?controller=authentication&back=order-slip", "http://automationpractice.com/index.php?controller=authentication&back=addresses", "http://automationpractice.com/index.php?controller=authentication&back=identity"]): All links are accessible
+
+2019-12-09 01:55:12 - [MESSAGE][INFO] - HAR: /Users/blagojab/git/Automation/Reports/All/20191209_015422/requests/main/12.har
+
+2019-12-09 01:55:12 - [MESSAGE][PASSED] - Send request successfully
+
+2019-12-09 01:55:12 - [MESSAGE][INFO] - HAR: /Users/blagojab/git/Automation/Reports/All/20191209_015422/requests/main/13.har
+
+2019-12-09 01:55:12 - [MESSAGE][PASSED] - Send request successfully
+
+2019-12-09 01:55:13 - [MESSAGE][INFO] - HAR: /Users/blagojab/git/Automation/Reports/All/20191209_015422/requests/main/14.har
+
+2019-12-09 01:55:13 - [MESSAGE][PASSED] - Send request successfully
+
+2019-12-09 01:55:14 - [MESSAGE][INFO] - HAR: /Users/blagojab/git/Automation/Reports/All/20191209_015422/requests/main/15.har
+
+2019-12-09 01:55:14 - [MESSAGE][PASSED] - Send request successfully
+
+2019-12-09 01:55:15 - [MESSAGE][INFO] - HAR: /Users/blagojab/git/Automation/Reports/All/20191209_015422/requests/main/16.har
+
+2019-12-09 01:55:15 - [MESSAGE][PASSED] - Send request successfully
+
+2019-12-09 01:55:15 - [MESSAGE][PASSED] - All links are accessible
+
+2019-12-09 01:55:15 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2019-12-09 01:55:15 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/regression/header and footer Desktop/Footer Store information Desktop" classname="Test Cases/regression/header and footer Desktop/Footer Store information Desktop" status="PASSED">
+         <system-out><![CDATA[2019-12-09 01:55:15 - [TEST_CASE][PASSED] - Test Cases/regression/header and footer Desktop/Footer Store information Desktop: Test Cases/regression/header and footer Desktop/Footer Store information Desktop
+
+2019-12-09 01:55:15 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2019-12-09 01:55:15 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2019-12-09 01:55:17 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2019-12-09 01:55:17 - [TEST_STEP][PASSED] - navigateToUrl("http://automationpractice.com/index.php"): Navigate to 'http://automationpractice.com/index.php' successfully
+
+2019-12-09 01:55:21 - [MESSAGE][PASSED] - Navigate to 'http://automationpractice.com/index.php' successfully
+
+2019-12-09 01:55:21 - [TEST_STEP][PASSED] - scrollToPosition(9999999, 9999999): Browser is scrolled to position x = 9999999, y = 9999999
+
+2019-12-09 01:55:21 - [MESSAGE][PASSED] - Browser is scrolled to position x = 9999999, y = 9999999
+
+2019-12-09 01:55:21 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Object Repository/Footer elements/Page_My Store/h4_Store information")): Object 'Object Repository/Footer elements/Page_My Store/h4_Store information' is visible
+
+2019-12-09 01:55:21 - [MESSAGE][PASSED] - Object 'Object Repository/Footer elements/Page_My Store/h4_Store information' is visible
+
+2019-12-09 01:55:21 - [TEST_STEP][PASSED] - verifyTextPresent("Selenium Framework, Research Triangle Park, North Carolina, USA", false): Text 'Selenium Framework, Research Triangle Park, North Carolina, USA' is present on page 
+
+2019-12-09 01:55:21 - [MESSAGE][PASSED] - Text 'Selenium Framework, Research Triangle Park, North Carolina, USA' is present on page 
+
+2019-12-09 01:55:21 - [TEST_STEP][PASSED] - verifyTextPresent("(347) 466-7432", false): Text '(347) 466-7432' is present on page 
+
+2019-12-09 01:55:21 - [MESSAGE][PASSED] - Text '(347) 466-7432' is present on page 
+
+2019-12-09 01:55:21 - [TEST_STEP][PASSED] - verifyTextPresent("Call us now", false): Text 'Call us now' is present on page 
+
+2019-12-09 01:55:21 - [MESSAGE][PASSED] - Text 'Call us now' is present on page 
+
+2019-12-09 01:55:21 - [TEST_STEP][PASSED] - verifyTextPresent("Email", false): Text 'Email' is present on page 
+
+2019-12-09 01:55:22 - [MESSAGE][PASSED] - Text 'Email' is present on page 
+
+2019-12-09 01:55:22 - [TEST_STEP][PASSED] - verifyTextPresent("support@seleniumframework.com", false): Text 'support@seleniumframework.com' is present on page 
+
+2019-12-09 01:55:22 - [MESSAGE][PASSED] - Text 'support@seleniumframework.com' is present on page 
+
+2019-12-09 01:55:22 - [TEST_STEP][PASSED] - verifyTextPresent("Ecommerce software by PrestaShop™", false): Text 'Ecommerce software by PrestaShop™' is present on page 
+
+2019-12-09 01:55:22 - [MESSAGE][PASSED] - Text 'Ecommerce software by PrestaShop™' is present on page 
+
+2019-12-09 01:55:22 - [TEST_STEP][PASSED] - verifyTextPresent("2014", false): Text '2014' is present on page 
+
+2019-12-09 01:55:22 - [MESSAGE][PASSED] - Text '2014' is present on page 
+
+2019-12-09 01:55:22 - [TEST_STEP][PASSED] - verifyLinksAccessible(["https://www.prestashop.com/"]): All links are accessible
+
+2019-12-09 01:55:23 - [MESSAGE][INFO] - HAR: /Users/blagojab/git/Automation/Reports/All/20191209_015422/requests/main/17.har
+
+2019-12-09 01:55:23 - [MESSAGE][PASSED] - Send request successfully
+
+2019-12-09 01:55:23 - [MESSAGE][PASSED] - All links are accessible
+
+2019-12-09 01:55:23 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2019-12-09 01:55:23 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/regression/header and footer Desktop/Footer Subscribe Desktop" classname="Test Cases/regression/header and footer Desktop/Footer Subscribe Desktop" status="PASSED">
+         <system-out><![CDATA[2019-12-09 01:55:23 - [TEST_CASE][PASSED] - Test Cases/regression/header and footer Desktop/Footer Subscribe Desktop: Test Cases/regression/header and footer Desktop/Footer Subscribe Desktop
+
+2019-12-09 01:55:23 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2019-12-09 01:55:23 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2019-12-09 01:55:25 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2019-12-09 01:55:25 - [TEST_STEP][PASSED] - navigateToUrl("http://automationpractice.com/index.php"): Navigate to 'http://automationpractice.com/index.php' successfully
+
+2019-12-09 01:55:29 - [MESSAGE][PASSED] - Navigate to 'http://automationpractice.com/index.php' successfully
+
+2019-12-09 01:55:29 - [TEST_STEP][PASSED] - setText(findTestObject("Footer elements/subscribe/input_Newsletter_email"), "Testtest.com"): Text 'Testtest.com' is set on object 'Object Repository/Footer elements/subscribe/input_Newsletter_email'
+
+2019-12-09 01:55:30 - [MESSAGE][PASSED] - Text 'Testtest.com' is set on object 'Object Repository/Footer elements/subscribe/input_Newsletter_email'
+
+2019-12-09 01:55:30 - [TEST_STEP][PASSED] - click(findTestObject("Footer elements/subscribe/button_Ok")): Object: 'Object Repository/Footer elements/subscribe/button_Ok' is clicked on
+
+2019-12-09 01:55:31 - [MESSAGE][PASSED] - Object: 'Object Repository/Footer elements/subscribe/button_Ok' is clicked on
+
+2019-12-09 01:55:31 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Footer elements/subscribe/p_Newsletter  Invalid email address.")): Object 'Object Repository/Footer elements/subscribe/p_Newsletter  Invalid email address.' is visible
+
+2019-12-09 01:55:31 - [MESSAGE][PASSED] - Object 'Object Repository/Footer elements/subscribe/p_Newsletter  Invalid email address.' is visible
+
+2019-12-09 01:55:31 - [TEST_STEP][PASSED] - setText(findTestObject("Footer elements/subscribe/input_Newsletter_email"), "Test@Test.com"): Text 'Test@Test.com' is set on object 'Object Repository/Footer elements/subscribe/input_Newsletter_email'
+
+2019-12-09 01:55:32 - [MESSAGE][PASSED] - Text 'Test@Test.com' is set on object 'Object Repository/Footer elements/subscribe/input_Newsletter_email'
+
+2019-12-09 01:55:32 - [TEST_STEP][PASSED] - click(findTestObject("Footer elements/subscribe/button_Ok")): Object: 'Object Repository/Footer elements/subscribe/button_Ok' is clicked on
+
+2019-12-09 01:55:33 - [MESSAGE][PASSED] - Object: 'Object Repository/Footer elements/subscribe/button_Ok' is clicked on
+
+2019-12-09 01:55:33 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Footer elements/subscribe/p_Newsletter  This email address is already registered.")): Object 'Object Repository/Footer elements/subscribe/p_Newsletter  This email address is already registered.' is visible
+
+2019-12-09 01:55:34 - [MESSAGE][PASSED] - Object 'Object Repository/Footer elements/subscribe/p_Newsletter  This email address is already registered.' is visible
+
+2019-12-09 01:55:34 - [TEST_STEP][PASSED] - setText(findTestObject("Footer elements/subscribe/input_Newsletter_email"), "Blagoja@blagoja1.com"): Text 'Blagoja@blagoja1.com' is set on object 'Object Repository/Footer elements/subscribe/input_Newsletter_email'
+
+2019-12-09 01:55:34 - [MESSAGE][PASSED] - Text 'Blagoja@blagoja1.com' is set on object 'Object Repository/Footer elements/subscribe/input_Newsletter_email'
+
+2019-12-09 01:55:34 - [TEST_STEP][PASSED] - click(findTestObject("Footer elements/subscribe/button_Ok")): Object: 'Object Repository/Footer elements/subscribe/button_Ok' is clicked on
+
+2019-12-09 01:55:35 - [MESSAGE][PASSED] - Object: 'Object Repository/Footer elements/subscribe/button_Ok' is clicked on
+
+2019-12-09 01:55:35 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Footer elements/subscribe/p_Newsletter  You have successfully subscribed to this newsletter.")): Object 'Object Repository/Footer elements/subscribe/p_Newsletter  You have successfully subscribed to this newsletter.' is visible
+
+2019-12-09 01:55:35 - [MESSAGE][PASSED] - Object 'Object Repository/Footer elements/subscribe/p_Newsletter  You have successfully subscribed to this newsletter.' is visible
+
+2019-12-09 01:55:35 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2019-12-09 01:55:36 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/regression/header and footer Desktop/Header Search Desktop" classname="Test Cases/regression/header and footer Desktop/Header Search Desktop" status="PASSED">
+         <system-out><![CDATA[2019-12-09 01:55:36 - [TEST_CASE][PASSED] - Test Cases/regression/header and footer Desktop/Header Search Desktop: Test Cases/regression/header and footer Desktop/Header Search Desktop
+
+2019-12-09 01:55:36 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2019-12-09 01:55:36 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2019-12-09 01:55:37 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2019-12-09 01:55:37 - [TEST_STEP][PASSED] - navigateToUrl("http://automationpractice.com/index.php"): Navigate to 'http://automationpractice.com/index.php' successfully
+
+2019-12-09 01:55:42 - [MESSAGE][PASSED] - Navigate to 'http://automationpractice.com/index.php' successfully
+
+2019-12-09 01:55:42 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Search/div_Search"), "sefaesd"): Text 'sefaesd' is set on object 'Object Repository/Search/div_Search'
+
+2019-12-09 01:55:42 - [MESSAGE][PASSED] - Text 'sefaesd' is set on object 'Object Repository/Search/div_Search'
+
+2019-12-09 01:55:42 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Search/button_Search")): Object: 'Object Repository/Search/button_Search' is clicked on
+
+2019-12-09 01:55:43 - [MESSAGE][PASSED] - Object: 'Object Repository/Search/button_Search' is clicked on
+
+2019-12-09 01:55:43 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Search/no results"), 1): Object 'Object Repository/Search/no results' is present
+
+2019-12-09 01:55:43 - [MESSAGE][PASSED] - Object 'Object Repository/Search/no results' is present
+
+2019-12-09 01:55:43 - [TEST_STEP][PASSED] - click(findTestObject("Search/div_Search")): Object: 'Object Repository/Search/div_Search' is clicked on
+
+2019-12-09 01:55:43 - [MESSAGE][PASSED] - Object: 'Object Repository/Search/div_Search' is clicked on
+
+2019-12-09 01:55:43 - [TEST_STEP][PASSED] - clearText(findTestObject("Search/div_Search")): Text of object 'Object Repository/Search/div_Search' is cleared
+
+2019-12-09 01:55:43 - [MESSAGE][PASSED] - Text of object 'Object Repository/Search/div_Search' is cleared
+
+2019-12-09 01:55:43 - [TEST_STEP][PASSED] - setText(findTestObject("Search/div_Search"), "Printed Chiffon Dress"): Text 'Printed Chiffon Dress' is set on object 'Object Repository/Search/div_Search'
+
+2019-12-09 01:55:43 - [MESSAGE][PASSED] - Text 'Printed Chiffon Dress' is set on object 'Object Repository/Search/div_Search'
+
+2019-12-09 01:55:43 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Search/button_Search")): Object: 'Object Repository/Search/button_Search' is clicked on
+
+2019-12-09 01:55:45 - [MESSAGE][PASSED] - Object: 'Object Repository/Search/button_Search' is clicked on
+
+2019-12-09 01:55:45 - [TEST_STEP][PASSED] - verifyTextPresent("2 results have been found", false): Text '2 results have been found' is present on page 
+
+2019-12-09 01:55:45 - [MESSAGE][PASSED] - Text '2 results have been found' is present on page 
+
+2019-12-09 01:55:45 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2019-12-09 01:55:45 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/regression/header and footer Desktop/Header-Elements Present Desktop" classname="Test Cases/regression/header and footer Desktop/Header-Elements Present Desktop" status="PASSED">
+         <system-out><![CDATA[2019-12-09 01:55:45 - [TEST_CASE][PASSED] - Test Cases/regression/header and footer Desktop/Header-Elements Present Desktop: Test Cases/regression/header and footer Desktop/Header-Elements Present Desktop
+
+2019-12-09 01:55:46 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2019-12-09 01:55:46 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2019-12-09 01:55:47 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2019-12-09 01:55:47 - [TEST_STEP][PASSED] - navigateToUrl("http://automationpractice.com/index.php"): Navigate to 'http://automationpractice.com/index.php' successfully
+
+2019-12-09 01:55:52 - [MESSAGE][PASSED] - Navigate to 'http://automationpractice.com/index.php' successfully
+
+2019-12-09 01:55:52 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("header elements/img_Sign in_img-responsive"), 1): Object 'Object Repository/header elements/img_Sign in_img-responsive' is present
+
+2019-12-09 01:55:52 - [MESSAGE][PASSED] - Object 'Object Repository/header elements/img_Sign in_img-responsive' is present
+
+2019-12-09 01:55:52 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("header elements/span_Call us now 0123-456-789"), 1): Object 'Object Repository/header elements/span_Call us now 0123-456-789' is present
+
+2019-12-09 01:55:52 - [MESSAGE][PASSED] - Object 'Object Repository/header elements/span_Call us now 0123-456-789' is present
+
+2019-12-09 01:55:52 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("header elements/strong_0123-456-789"), 1): Object 'Object Repository/header elements/strong_0123-456-789' is present
+
+2019-12-09 01:55:52 - [MESSAGE][PASSED] - Object 'Object Repository/header elements/strong_0123-456-789' is present
+
+2019-12-09 01:55:52 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("header elements/strong_0123-456-789"), "0123-456-789"): Actual text and expected text of test object 'Object Repository/header elements/strong_0123-456-789' are matched.
+
+2019-12-09 01:55:52 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/header elements/strong_0123-456-789' are matched.
+
+2019-12-09 01:55:52 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("header elements/i_Call us now_icon-phone"), 1): Object 'Object Repository/header elements/i_Call us now_icon-phone' is present
+
+2019-12-09 01:55:52 - [MESSAGE][PASSED] - Object 'Object Repository/header elements/i_Call us now_icon-phone' is present
+
+2019-12-09 01:55:52 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("header elements/a_Contact us"), 1): Object 'Object Repository/header elements/a_Contact us' is present
+
+2019-12-09 01:55:52 - [MESSAGE][PASSED] - Object 'Object Repository/header elements/a_Contact us' is present
+
+2019-12-09 01:55:52 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("header elements/a_Contact us"), "Contact us"): Actual text and expected text of test object 'Object Repository/header elements/a_Contact us' are matched.
+
+2019-12-09 01:55:52 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/header elements/a_Contact us' are matched.
+
+2019-12-09 01:55:52 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("header elements/a_Sign in"), 1): Object 'Object Repository/header elements/a_Sign in' is present
+
+2019-12-09 01:55:52 - [MESSAGE][PASSED] - Object 'Object Repository/header elements/a_Sign in' is present
+
+2019-12-09 01:55:52 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("header elements/a_Sign in"), "Sign in"): Actual text and expected text of test object 'Object Repository/header elements/a_Sign in' are matched.
+
+2019-12-09 01:55:52 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/header elements/a_Sign in' are matched.
+
+2019-12-09 01:55:52 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("header elements/img_Call us now_logo img-responsive"), 1): Object 'Object Repository/header elements/img_Call us now_logo img-responsive' is present
+
+2019-12-09 01:55:52 - [MESSAGE][PASSED] - Object 'Object Repository/header elements/img_Call us now_logo img-responsive' is present
+
+2019-12-09 01:55:52 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("header elements/a_Cart0ProductProducts(empty)"), 1): Object 'Object Repository/header elements/a_Cart0ProductProducts(empty)' is present
+
+2019-12-09 01:55:52 - [MESSAGE][PASSED] - Object 'Object Repository/header elements/a_Cart0ProductProducts(empty)' is present
+
+2019-12-09 01:55:52 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("header elements/div_Search"), 1): Object 'Object Repository/header elements/div_Search' is present
+
+2019-12-09 01:55:52 - [MESSAGE][PASSED] - Object 'Object Repository/header elements/div_Search' is present
+
+2019-12-09 01:55:52 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("header elements/ul_WomenTopsT-shirtsBlousesDressesCasual DressesEvening DressesSummer DressesDressesCasual DressesEvening DressesSummer DressesT-shirts"), 1): Object 'Object Repository/header elements/ul_WomenTopsT-shirtsBlousesDressesCasual DressesEvening DressesSummer DressesDressesCasual DressesEvening DressesSummer DressesT-shirts' is present
+
+2019-12-09 01:55:52 - [MESSAGE][PASSED] - Object 'Object Repository/header elements/ul_WomenTopsT-shirtsBlousesDressesCasual DressesEvening DressesSummer DressesDressesCasual DressesEvening DressesSummer DressesT-shirts' is present
+
+2019-12-09 01:55:52 - [TEST_STEP][PASSED] - takeScreenshot("TestScreenShots/header.png"): Taking screenshot successfully
+
+2019-12-09 01:55:53 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|TestScreenShots/header.png]]
+
+2019-12-09 01:55:53 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2019-12-09 01:55:54 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/regression/Navigation/Main Navigation Menu Desktop" classname="Test Cases/regression/Navigation/Main Navigation Menu Desktop" status="PASSED">
+         <system-out><![CDATA[2019-12-09 01:55:54 - [TEST_CASE][PASSED] - Test Cases/regression/Navigation/Main Navigation Menu Desktop: Test Cases/regression/Navigation/Main Navigation Menu Desktop
+
+2019-12-09 01:55:54 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2019-12-09 01:55:54 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2019-12-09 01:55:55 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2019-12-09 01:55:55 - [TEST_STEP][PASSED] - navigateToUrl("http://automationpractice.com/index.php"): Navigate to 'http://automationpractice.com/index.php' successfully
+
+2019-12-09 01:56:00 - [MESSAGE][PASSED] - Navigate to 'http://automationpractice.com/index.php' successfully
+
+2019-12-09 01:56:00 - [TEST_STEP][PASSED] - verifyElementClickable(findTestObject("navigation menu/a_Women")): Object 'Object Repository/navigation menu/a_Women' is clickable
+
+2019-12-09 01:56:00 - [MESSAGE][PASSED] - Object 'Object Repository/navigation menu/a_Women' is clickable
+
+2019-12-09 01:56:00 - [TEST_STEP][PASSED] - verifyElementClickable(findTestObject("navigation menu/a_T-shirts")): Object 'Object Repository/navigation menu/a_T-shirts' is clickable
+
+2019-12-09 01:56:00 - [MESSAGE][PASSED] - Object 'Object Repository/navigation menu/a_T-shirts' is clickable
+
+2019-12-09 01:56:00 - [TEST_STEP][PASSED] - verifyElementClickable(findTestObject("navigation menu/a_Dresses")): Object 'Object Repository/navigation menu/a_Dresses' is clickable
+
+2019-12-09 01:56:00 - [MESSAGE][PASSED] - Object 'Object Repository/navigation menu/a_Dresses' is clickable
+
+2019-12-09 01:56:00 - [TEST_STEP][PASSED] - click(findTestObject("navigation menu/a_Women")): Object: 'Object Repository/navigation menu/a_Women' is clicked on
+
+2019-12-09 01:56:02 - [MESSAGE][PASSED] - Object: 'Object Repository/navigation menu/a_Women' is clicked on
+
+2019-12-09 01:56:02 - [TEST_STEP][PASSED] - assert getWindowTitle() == "Women - My Store": Current window's title is: 'Women - My Store'
+
+2019-12-09 01:56:02 - [MESSAGE][PASSED] - Current window's title is: 'Women - My Store'
+
+2019-12-09 01:56:02 - [TEST_STEP][PASSED] - CurrentUrl = getUrl(): Current window's url is: 'http://automationpractice.com/index.php?id_category=3&controller=category'
+
+2019-12-09 01:56:02 - [MESSAGE][PASSED] - Current window's url is: 'http://automationpractice.com/index.php?id_category=3&controller=category'
+
+2019-12-09 01:56:02 - [TEST_STEP][PASSED] - verifyMatch(CurrentUrl, "http://automationpractice.com/index.php?id_category=3&controller=category", false): Actual text 'http://automationpractice.com/index.php?id_category=3&controller=category' and expected text 'http://automationpractice.com/index.php?id_category=3&controller=category' are matched 
+
+2019-12-09 01:56:02 - [MESSAGE][PASSED] - Actual text 'http://automationpractice.com/index.php?id_category=3&controller=category' and expected text 'http://automationpractice.com/index.php?id_category=3&controller=category' are matched 
+
+2019-12-09 01:56:02 - [TEST_STEP][PASSED] - click(findTestObject("navigation menu/a_T-shirts")): Object: 'Object Repository/navigation menu/a_T-shirts' is clicked on
+
+2019-12-09 01:56:04 - [MESSAGE][PASSED] - Object: 'Object Repository/navigation menu/a_T-shirts' is clicked on
+
+2019-12-09 01:56:04 - [TEST_STEP][PASSED] - assert getWindowTitle() == "T-shirts - My Store": Current window's title is: 'T-shirts - My Store'
+
+2019-12-09 01:56:04 - [MESSAGE][PASSED] - Current window's title is: 'T-shirts - My Store'
+
+2019-12-09 01:56:04 - [TEST_STEP][PASSED] - CurrentUrl1 = getUrl(): Current window's url is: 'http://automationpractice.com/index.php?id_category=5&controller=category'
+
+2019-12-09 01:56:04 - [MESSAGE][PASSED] - Current window's url is: 'http://automationpractice.com/index.php?id_category=5&controller=category'
+
+2019-12-09 01:56:04 - [TEST_STEP][PASSED] - verifyMatch(CurrentUrl1, "http://automationpractice.com/index.php?id_category=5&controller=category", false): Actual text 'http://automationpractice.com/index.php?id_category=5&controller=category' and expected text 'http://automationpractice.com/index.php?id_category=5&controller=category' are matched 
+
+2019-12-09 01:56:04 - [MESSAGE][PASSED] - Actual text 'http://automationpractice.com/index.php?id_category=5&controller=category' and expected text 'http://automationpractice.com/index.php?id_category=5&controller=category' are matched 
+
+2019-12-09 01:56:04 - [TEST_STEP][PASSED] - click(findTestObject("navigation menu/a_Dresses")): Object: 'Object Repository/navigation menu/a_Dresses' is clicked on
+
+2019-12-09 01:56:06 - [MESSAGE][PASSED] - Object: 'Object Repository/navigation menu/a_Dresses' is clicked on
+
+2019-12-09 01:56:06 - [TEST_STEP][PASSED] - assert getWindowTitle() == "Dresses - My Store": Current window's title is: 'Dresses - My Store'
+
+2019-12-09 01:56:06 - [MESSAGE][PASSED] - Current window's title is: 'Dresses - My Store'
+
+2019-12-09 01:56:06 - [TEST_STEP][PASSED] - CurrentUrl2 = getUrl(): Current window's url is: 'http://automationpractice.com/index.php?id_category=8&controller=category'
+
+2019-12-09 01:56:06 - [MESSAGE][PASSED] - Current window's url is: 'http://automationpractice.com/index.php?id_category=8&controller=category'
+
+2019-12-09 01:56:06 - [TEST_STEP][PASSED] - verifyMatch(CurrentUrl2, "http://automationpractice.com/index.php?id_category=8&controller=category", false): Actual text 'http://automationpractice.com/index.php?id_category=8&controller=category' and expected text 'http://automationpractice.com/index.php?id_category=8&controller=category' are matched 
+
+2019-12-09 01:56:06 - [MESSAGE][PASSED] - Actual text 'http://automationpractice.com/index.php?id_category=8&controller=category' and expected text 'http://automationpractice.com/index.php?id_category=8&controller=category' are matched 
+
+2019-12-09 01:56:06 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2019-12-09 01:56:06 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/regression/Navigation/Main Navigation Sub Menu -Dresses- Desktop" classname="Test Cases/regression/Navigation/Main Navigation Sub Menu -Dresses- Desktop" status="PASSED">
+         <system-out><![CDATA[2019-12-09 01:56:06 - [TEST_CASE][PASSED] - Test Cases/regression/Navigation/Main Navigation Sub Menu -Dresses- Desktop: Test Cases/regression/Navigation/Main Navigation Sub Menu -Dresses- Desktop
+
+2019-12-09 01:56:06 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2019-12-09 01:56:06 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2019-12-09 01:56:08 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2019-12-09 01:56:08 - [TEST_STEP][PASSED] - navigateToUrl("http://automationpractice.com/index.php"): Navigate to 'http://automationpractice.com/index.php' successfully
+
+2019-12-09 01:56:12 - [MESSAGE][PASSED] - Navigate to 'http://automationpractice.com/index.php' successfully
+
+2019-12-09 01:56:12 - [TEST_STEP][PASSED] - mouseOver(findTestObject("navigation menu/a_Dresses")): Object: 'Object Repository/navigation menu/a_Dresses' is hovered
+
+2019-12-09 01:56:12 - [MESSAGE][PASSED] - Object: 'Object Repository/navigation menu/a_Dresses' is hovered
+
+2019-12-09 01:56:12 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2019-12-09 01:56:15 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2019-12-09 01:56:15 - [TEST_STEP][PASSED] - verifyElementClickable(findTestObject("navigation menu/a_Casual_Dresses")): Object 'Object Repository/navigation menu/a_Casual_Dresses' is clickable
+
+2019-12-09 01:56:15 - [MESSAGE][PASSED] - Object 'Object Repository/navigation menu/a_Casual_Dresses' is clickable
+
+2019-12-09 01:56:15 - [TEST_STEP][PASSED] - verifyElementClickable(findTestObject("navigation menu/a_Evening_Dresses")): Object 'Object Repository/navigation menu/a_Evening_Dresses' is clickable
+
+2019-12-09 01:56:15 - [MESSAGE][PASSED] - Object 'Object Repository/navigation menu/a_Evening_Dresses' is clickable
+
+2019-12-09 01:56:15 - [TEST_STEP][PASSED] - verifyElementClickable(findTestObject("navigation menu/a_Summer_Dresses")): Object 'Object Repository/navigation menu/a_Summer_Dresses' is clickable
+
+2019-12-09 01:56:15 - [MESSAGE][PASSED] - Object 'Object Repository/navigation menu/a_Summer_Dresses' is clickable
+
+2019-12-09 01:56:15 - [TEST_STEP][PASSED] - click(findTestObject("navigation menu/a_Casual_Dresses")): Object: 'Object Repository/navigation menu/a_Casual_Dresses' is clicked on
+
+2019-12-09 01:56:17 - [MESSAGE][PASSED] - Object: 'Object Repository/navigation menu/a_Casual_Dresses' is clicked on
+
+2019-12-09 01:56:17 - [TEST_STEP][PASSED] - assert getWindowTitle() == "Casual Dresses - My Store": Current window's title is: 'Casual Dresses - My Store'
+
+2019-12-09 01:56:17 - [MESSAGE][PASSED] - Current window's title is: 'Casual Dresses - My Store'
+
+2019-12-09 01:56:17 - [TEST_STEP][PASSED] - CurrentUrl10 = getUrl(): Current window's url is: 'http://automationpractice.com/index.php?id_category=9&controller=category'
+
+2019-12-09 01:56:17 - [MESSAGE][PASSED] - Current window's url is: 'http://automationpractice.com/index.php?id_category=9&controller=category'
+
+2019-12-09 01:56:17 - [TEST_STEP][PASSED] - verifyMatch(CurrentUrl10, "http://automationpractice.com/index.php?id_category=9&controller=category", false): Actual text 'http://automationpractice.com/index.php?id_category=9&controller=category' and expected text 'http://automationpractice.com/index.php?id_category=9&controller=category' are matched 
+
+2019-12-09 01:56:17 - [MESSAGE][PASSED] - Actual text 'http://automationpractice.com/index.php?id_category=9&controller=category' and expected text 'http://automationpractice.com/index.php?id_category=9&controller=category' are matched 
+
+2019-12-09 01:56:17 - [TEST_STEP][PASSED] - mouseOver(findTestObject("navigation menu/a_Dresses")): Object: 'Object Repository/navigation menu/a_Dresses' is hovered
+
+2019-12-09 01:56:17 - [MESSAGE][PASSED] - Object: 'Object Repository/navigation menu/a_Dresses' is hovered
+
+2019-12-09 01:56:17 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2019-12-09 01:56:20 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2019-12-09 01:56:20 - [TEST_STEP][PASSED] - click(findTestObject("navigation menu/a_Summer_Dresses")): Object: 'Object Repository/navigation menu/a_Summer_Dresses' is clicked on
+
+2019-12-09 01:56:22 - [MESSAGE][PASSED] - Object: 'Object Repository/navigation menu/a_Summer_Dresses' is clicked on
+
+2019-12-09 01:56:22 - [TEST_STEP][PASSED] - assert getWindowTitle() == "Summer Dresses - My Store": Current window's title is: 'Summer Dresses - My Store'
+
+2019-12-09 01:56:22 - [MESSAGE][PASSED] - Current window's title is: 'Summer Dresses - My Store'
+
+2019-12-09 01:56:22 - [TEST_STEP][PASSED] - CurrentUrl9 = getUrl(): Current window's url is: 'http://automationpractice.com/index.php?id_category=11&controller=category'
+
+2019-12-09 01:56:22 - [MESSAGE][PASSED] - Current window's url is: 'http://automationpractice.com/index.php?id_category=11&controller=category'
+
+2019-12-09 01:56:22 - [TEST_STEP][PASSED] - verifyMatch(CurrentUrl9, "http://automationpractice.com/index.php?id_category=11&controller=category", false): Actual text 'http://automationpractice.com/index.php?id_category=11&controller=category' and expected text 'http://automationpractice.com/index.php?id_category=11&controller=category' are matched 
+
+2019-12-09 01:56:22 - [MESSAGE][PASSED] - Actual text 'http://automationpractice.com/index.php?id_category=11&controller=category' and expected text 'http://automationpractice.com/index.php?id_category=11&controller=category' are matched 
+
+2019-12-09 01:56:22 - [TEST_STEP][PASSED] - mouseOver(findTestObject("navigation menu/a_Dresses")): Object: 'Object Repository/navigation menu/a_Dresses' is hovered
+
+2019-12-09 01:56:22 - [MESSAGE][PASSED] - Object: 'Object Repository/navigation menu/a_Dresses' is hovered
+
+2019-12-09 01:56:22 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2019-12-09 01:56:25 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2019-12-09 01:56:25 - [TEST_STEP][PASSED] - click(findTestObject("navigation menu/a_Evening_Dresses")): Object: 'Object Repository/navigation menu/a_Evening_Dresses' is clicked on
+
+2019-12-09 01:56:26 - [MESSAGE][PASSED] - Object: 'Object Repository/navigation menu/a_Evening_Dresses' is clicked on
+
+2019-12-09 01:56:26 - [TEST_STEP][PASSED] - assert getWindowTitle() == "Evening Dresses - My Store": Current window's title is: 'Evening Dresses - My Store'
+
+2019-12-09 01:56:26 - [MESSAGE][PASSED] - Current window's title is: 'Evening Dresses - My Store'
+
+2019-12-09 01:56:26 - [TEST_STEP][PASSED] - CurrentUrl11 = getUrl(): Current window's url is: 'http://automationpractice.com/index.php?id_category=10&controller=category'
+
+2019-12-09 01:56:26 - [MESSAGE][PASSED] - Current window's url is: 'http://automationpractice.com/index.php?id_category=10&controller=category'
+
+2019-12-09 01:56:26 - [TEST_STEP][PASSED] - verifyMatch(CurrentUrl11, "http://automationpractice.com/index.php?id_category=10&controller=category", false): Actual text 'http://automationpractice.com/index.php?id_category=10&controller=category' and expected text 'http://automationpractice.com/index.php?id_category=10&controller=category' are matched 
+
+2019-12-09 01:56:26 - [MESSAGE][PASSED] - Actual text 'http://automationpractice.com/index.php?id_category=10&controller=category' and expected text 'http://automationpractice.com/index.php?id_category=10&controller=category' are matched 
+
+2019-12-09 01:56:26 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2019-12-09 01:56:26 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/regression/Navigation/Main Navigation Sub Menu -Women- Desktop" classname="Test Cases/regression/Navigation/Main Navigation Sub Menu -Women- Desktop" status="FAILED">
+         <failure type="FAILED" message="Test Cases/regression/Navigation/Main Navigation Sub Menu -Women- Desktop FAILED.
+Reason:
+Assertion failed: 
+
+assert WebUI.getWindowTitle() == 'Blouses - My Store'
+             |                |
+             Tops - My Store  false
+
+	at Main Navigation Sub Menu -Women- Desktop.run(Main Navigation Sub Menu -Women- Desktop:36)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:331)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:322)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:301)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:293)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:227)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1575852862751.run(TempTestSuite1575852862751.groovy:35)
+"/>
+         <system-out><![CDATA[2019-12-09 01:56:26 - [TEST_CASE][FAILED] - Test Cases/regression/Navigation/Main Navigation Sub Menu -Women- Desktop: Test Cases/regression/Navigation/Main Navigation Sub Menu -Women- Desktop FAILED.
+Reason:
+Assertion failed: 
+
+assert WebUI.getWindowTitle() == 'Blouses - My Store'
+             |                |
+             Tops - My Store  false
+
+	at Main Navigation Sub Menu -Women- Desktop.run(Main Navigation Sub Menu -Women- Desktop:36)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:331)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:322)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:301)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:293)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:227)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1575852862751.run(TempTestSuite1575852862751.groovy:35)
+
+
+2019-12-09 01:56:27 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2019-12-09 01:56:27 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2019-12-09 01:56:28 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2019-12-09 01:56:28 - [TEST_STEP][PASSED] - navigateToUrl("http://automationpractice.com/index.php"): Navigate to 'http://automationpractice.com/index.php' successfully
+
+2019-12-09 01:56:32 - [MESSAGE][PASSED] - Navigate to 'http://automationpractice.com/index.php' successfully
+
+2019-12-09 01:56:32 - [TEST_STEP][PASSED] - mouseOver(findTestObject("navigation menu/a_Women")): Object: 'Object Repository/navigation menu/a_Women' is hovered
+
+2019-12-09 01:56:32 - [MESSAGE][PASSED] - Object: 'Object Repository/navigation menu/a_Women' is hovered
+
+2019-12-09 01:56:32 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2019-12-09 01:56:35 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2019-12-09 01:56:35 - [TEST_STEP][PASSED] - verifyElementClickable(findTestObject("navigation menu/a_Tops")): Object 'Object Repository/navigation menu/a_Tops' is clickable
+
+2019-12-09 01:56:35 - [MESSAGE][PASSED] - Object 'Object Repository/navigation menu/a_Tops' is clickable
+
+2019-12-09 01:56:35 - [TEST_STEP][PASSED] - verifyElementClickable(findTestObject("navigation menu/a_Blouses")): Object 'Object Repository/navigation menu/a_Blouses' is clickable
+
+2019-12-09 01:56:35 - [MESSAGE][PASSED] - Object 'Object Repository/navigation menu/a_Blouses' is clickable
+
+2019-12-09 01:56:35 - [TEST_STEP][PASSED] - verifyElementClickable(findTestObject("Object Repository/navigation menu/a_T-shirts - sub")): Object 'Object Repository/navigation menu/a_T-shirts - sub' is clickable
+
+2019-12-09 01:56:35 - [MESSAGE][PASSED] - Object 'Object Repository/navigation menu/a_T-shirts - sub' is clickable
+
+2019-12-09 01:56:35 - [TEST_STEP][PASSED] - click(findTestObject("navigation menu/a_Tops")): Object: 'Object Repository/navigation menu/a_Tops' is clicked on
+
+2019-12-09 01:56:38 - [MESSAGE][PASSED] - Object: 'Object Repository/navigation menu/a_Tops' is clicked on
+
+2019-12-09 01:56:38 - [TEST_STEP][PASSED] - assert getWindowTitle() == "Tops - My Store": Current window's title is: 'Tops - My Store'
+
+2019-12-09 01:56:38 - [MESSAGE][PASSED] - Current window's title is: 'Tops - My Store'
+
+2019-12-09 01:56:38 - [TEST_STEP][PASSED] - CurrentUrl3 = getUrl(): Current window's url is: 'http://automationpractice.com/index.php?id_category=4&controller=category'
+
+2019-12-09 01:56:38 - [MESSAGE][PASSED] - Current window's url is: 'http://automationpractice.com/index.php?id_category=4&controller=category'
+
+2019-12-09 01:56:38 - [TEST_STEP][PASSED] - verifyMatch(CurrentUrl3, "http://automationpractice.com/index.php?id_category=4&controller=category", false): Actual text 'http://automationpractice.com/index.php?id_category=4&controller=category' and expected text 'http://automationpractice.com/index.php?id_category=4&controller=category' are matched 
+
+2019-12-09 01:56:38 - [MESSAGE][PASSED] - Actual text 'http://automationpractice.com/index.php?id_category=4&controller=category' and expected text 'http://automationpractice.com/index.php?id_category=4&controller=category' are matched 
+
+2019-12-09 01:56:38 - [TEST_STEP][PASSED] - mouseOver(findTestObject("navigation menu/a_Women")): Object: 'Object Repository/navigation menu/a_Women' is hovered
+
+2019-12-09 01:56:43 - [MESSAGE][PASSED] - Object: 'Object Repository/navigation menu/a_Women' is hovered
+
+2019-12-09 01:56:43 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2019-12-09 01:56:46 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2019-12-09 01:56:46 - [TEST_STEP][PASSED] - click(findTestObject("navigation menu/a_Blouses")): Object: 'Object Repository/navigation menu/a_Blouses' is clicked on
+
+2019-12-09 01:56:51 - [MESSAGE][PASSED] - Object: 'Object Repository/navigation menu/a_Blouses' is clicked on
+
+2019-12-09 01:56:51 - [TEST_STEP][FAILED] - assert getWindowTitle() == "Blouses - My Store": assert getWindowTitle() == "Blouses - My Store" FAILED.
+Reason:
+Assertion failed: 
+
+assert WebUI.getWindowTitle() == 'Blouses - My Store'
+             |                |
+             Tops - My Store  false
+
+	at Main Navigation Sub Menu -Women- Desktop.run(Main Navigation Sub Menu -Women- Desktop:36)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:331)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:322)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:301)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:293)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:227)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1575852862751.run(TempTestSuite1575852862751.groovy:35)
+
+
+2019-12-09 01:56:51 - [MESSAGE][PASSED] - Current window's title is: 'Tops - My Store'
+
+2019-12-09 01:56:51 - [MESSAGE][FAILED] - assert getWindowTitle() == "Blouses - My Store" FAILED.
+Reason:
+Assertion failed: 
+
+assert WebUI.getWindowTitle() == 'Blouses - My Store'
+             |                |
+             Tops - My Store  false
+
+	at Main Navigation Sub Menu -Women- Desktop.run(Main Navigation Sub Menu -Women- Desktop:36)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:331)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:322)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:301)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:293)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:227)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1575852862751.run(TempTestSuite1575852862751.groovy:35)]]></system-out>
+         <system-err><![CDATA[2019-12-09 01:56:26 - [TEST_CASE][FAILED] - Test Cases/regression/Navigation/Main Navigation Sub Menu -Women- Desktop: Test Cases/regression/Navigation/Main Navigation Sub Menu -Women- Desktop FAILED.
+Reason:
+Assertion failed: 
+
+assert WebUI.getWindowTitle() == 'Blouses - My Store'
+             |                |
+             Tops - My Store  false
+
+	at Main Navigation Sub Menu -Women- Desktop.run(Main Navigation Sub Menu -Women- Desktop:36)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:331)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:322)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:301)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:293)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:227)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1575852862751.run(TempTestSuite1575852862751.groovy:35)]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/regression/User andComercial workflows/Sign in and Sign out Desktop" classname="Test Cases/regression/User andComercial workflows/Sign in and Sign out Desktop" status="PASSED">
+         <system-out><![CDATA[2019-12-09 01:56:51 - [TEST_CASE][PASSED] - Test Cases/regression/User andComercial workflows/Sign in and Sign out Desktop: Test Cases/regression/User andComercial workflows/Sign in and Sign out Desktop
+
+2019-12-09 01:56:52 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2019-12-09 01:56:52 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2019-12-09 01:56:52 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2019-12-09 01:56:53 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2019-12-09 01:56:53 - [TEST_STEP][PASSED] - navigateToUrl("http://automationpractice.com/index.php"): Navigate to 'http://automationpractice.com/index.php' successfully
+
+2019-12-09 01:56:57 - [MESSAGE][PASSED] - Navigate to 'http://automationpractice.com/index.php' successfully
+
+2019-12-09 01:56:57 - [TEST_STEP][PASSED] - click(findTestObject("Page_My Store/a_Sign in")): Object: 'Object Repository/Page_My Store/a_Sign in' is clicked on
+
+2019-12-09 01:56:59 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_My Store/a_Sign in' is clicked on
+
+2019-12-09 01:56:59 - [TEST_STEP][PASSED] - setText(findTestObject("SignInSignOut/Page_Login - My Store/input_Email address_email"), "blagoja11@gmail.com"): Text 'blagoja11@gmail.com' is set on object 'Object Repository/SignInSignOut/Page_Login - My Store/input_Email address_email'
+
+2019-12-09 01:56:59 - [MESSAGE][PASSED] - Text 'blagoja11@gmail.com' is set on object 'Object Repository/SignInSignOut/Page_Login - My Store/input_Email address_email'
+
+2019-12-09 01:56:59 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("SignInSignOut/Page_Login - My Store/input_Password_passwd"), "gfzG1VEcrbZGbK4KTMQXQw=="): Text ****** has been set on object 'Object Repository/SignInSignOut/Page_Login - My Store/input_Password_passwd'
+
+2019-12-09 01:56:59 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/SignInSignOut/Page_Login - My Store/input_Password_passwd'
+
+2019-12-09 01:56:59 - [TEST_STEP][PASSED] - click(findTestObject("SignInSignOut/Page_Login - My Store/span_Sign in")): Object: 'Object Repository/SignInSignOut/Page_Login - My Store/span_Sign in' is clicked on
+
+2019-12-09 01:57:00 - [MESSAGE][PASSED] - Object: 'Object Repository/SignInSignOut/Page_Login - My Store/span_Sign in' is clicked on
+
+2019-12-09 01:57:00 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("SignInSignOut/Page_Login - My Store/p_Welcome to your account. Here you can manage all of your personal information and orders.")): Object 'Object Repository/SignInSignOut/Page_Login - My Store/p_Welcome to your account. Here you can manage all of your personal information and orders.' is visible
+
+2019-12-09 01:57:00 - [MESSAGE][PASSED] - Object 'Object Repository/SignInSignOut/Page_Login - My Store/p_Welcome to your account. Here you can manage all of your personal information and orders.' is visible
+
+2019-12-09 01:57:00 - [TEST_STEP][PASSED] - click(findTestObject("SignInSignOut/Page_Login - My Store/a_Sign out")): Object: 'Object Repository/SignInSignOut/Page_Login - My Store/a_Sign out' is clicked on
+
+2019-12-09 01:57:02 - [MESSAGE][PASSED] - Object: 'Object Repository/SignInSignOut/Page_Login - My Store/a_Sign out' is clicked on
+
+2019-12-09 01:57:02 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2019-12-09 01:57:05 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2019-12-09 01:57:05 - [TEST_STEP][PASSED] - verifyTextNotPresent("Blagoja AOPEgkj", false): Text 'Blagoja AOPEgkj' is not present on page
+
+2019-12-09 01:57:06 - [MESSAGE][PASSED] - Text 'Blagoja AOPEgkj' is not present on page
+
+2019-12-09 01:57:06 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2019-12-09 01:57:06 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2019-12-09 01:54:25 - [TEST_SUITE][FAILED] - All: Test Cases/regression/Navigation/Main Navigation Sub Menu -Women- Desktop FAILED.
+Reason:
+Assertion failed: 
+
+assert WebUI.getWindowTitle() == 'Blouses - My Store'
+             |                |
+             Tops - My Store  false
+
+	at Main Navigation Sub Menu -Women- Desktop.run(Main Navigation Sub Menu -Women- Desktop:36)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:331)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:322)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:301)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:293)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:227)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1575852862751.run(TempTestSuite1575852862751.groovy:35)]]></system-out>
+      <system-err><![CDATA[2019-12-09 01:54:25 - [TEST_SUITE][FAILED] - All: Test Cases/regression/Navigation/Main Navigation Sub Menu -Women- Desktop FAILED.
+Reason:
+Assertion failed: 
+
+assert WebUI.getWindowTitle() == 'Blouses - My Store'
+             |                |
+             Tops - My Store  false
+
+	at Main Navigation Sub Menu -Women- Desktop.run(Main Navigation Sub Menu -Women- Desktop:36)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:331)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:322)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:301)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:293)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:227)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1575852862751.run(TempTestSuite1575852862751.groovy:35)]]></system-err>
+   </testsuite>
+</testsuites>
